@@ -1,26 +1,26 @@
-import axios from "axios";
-import { load } from "cheerio";
-import OpenAI from "openai";
-import fs from "fs";
+import axios from 'axios';
+import { load } from 'cheerio';
+import OpenAI from 'openai';
+import fs from 'fs';
 
 let list = {};
-fs.mkdirSync("./dist", {
+fs.mkdirSync('./dist', {
   recursive: true,
-  mode: 0o777,
+  mode: 0o777
 });
 async function ip1() {
-  const { data } = await axios.get("http://23.95.20.225:8000/").catch((err) => {
+  const { data } = await axios.get('http://23.95.20.225:8000/').catch(err => {
     console.log(err);
   });
 
   //   console.log(data);
   const $ = load(data);
-  $("tr").map((i, el) => {
-    const $td = $(el).find("td");
+  $('tr').map((i, el) => {
+    const $td = $(el).find('td');
     // console.log($td.eq(0).text());
     // console.log($td.eq(1).text());
 
-    if ($td.eq(0).text() === "") return;
+    if ($td.eq(0).text() === '') return;
 
     if (list[$td.eq(0).text()] === undefined) {
       list[$td.eq(0).text()] = [$td.eq(1).text()];
@@ -32,20 +32,18 @@ async function ip1() {
 }
 
 async function ip2() {
-  const { data } = await axios
-    .get("https://freeollama.oneplus1.top/")
-    .catch((err) => {
-      console.log(err);
-    });
+  const { data } = await axios.get('https://freeollama.oneplus1.top/').catch(err => {
+    console.log(err);
+  });
 
   //   console.log(data);
 
   const $ = load(data);
-  $("body > div > div:nth-child(3) > div").map((i, el) => {
-    const $ip = $(el).find(".card-text");
+  $('body > div > div:nth-child(3) > div').map((i, el) => {
+    const $ip = $(el).find('.card-text');
     // console.log($ip.eq(0).text());
 
-    const $mode = $(el).find(".mb-3 > span");
+    const $mode = $(el).find('.mb-3 > span');
     // console.log($mode.eq(0).text());
 
     $mode.map((i, el) => {
@@ -63,11 +61,11 @@ async function aiTest() {
   const ipList = Object.keys(list);
 
   for await (const ip of ipList) {
-    const baseUrl = "http://" + ip + "/v1";
+    const baseUrl = 'http://' + ip + '/v1';
     const openai = new OpenAI({
       baseURL: baseUrl,
-      apiKey: "",
-      timeout: 5 * 1000,
+      apiKey: '',
+      timeout: 5 * 1000
     });
 
     // const completion = await openai.chat.completions
@@ -87,18 +85,18 @@ async function aiTest() {
 
     await openai.models
       .list()
-      .then((res) => {
-        const modelNameList = res.data.map((item) => item.id);
+      .then(res => {
+        const modelNameList = res.data.map(item => item.id);
 
-        console.log(ip, "ok", modelNameList);
+        console.log(ip, 'ok', modelNameList);
 
-        if (fs.existsSync("./dist/ip.json")) {
+        if (fs.existsSync('./dist/ip.json')) {
           fs.writeFileSync(
-            "./dist/ip.json",
+            './dist/ip.json',
             JSON.stringify(
               {
-                ...JSON.parse(fs.readFileSync("./dist/ip.json", "utf-8")),
-                [ip]: modelNameList,
+                ...JSON.parse(fs.readFileSync('./dist/ip.json', 'utf-8')),
+                [ip]: modelNameList
               },
               null,
               2
@@ -106,10 +104,10 @@ async function aiTest() {
           );
         } else {
           fs.writeFileSync(
-            "./dist/ip.json",
+            './dist/ip.json',
             JSON.stringify(
               {
-                [ip]: list[ip],
+                [ip]: list[ip]
               },
               null,
               2
@@ -117,10 +115,10 @@ async function aiTest() {
           );
         }
       })
-      .catch((err) => {
+      .catch(err => {
         // console.log(err);
         delete list[ip];
-        console.log(ip, "error");
+        console.log(ip, 'error');
       });
   }
 
@@ -128,22 +126,29 @@ async function aiTest() {
 }
 
 async function main() {
-  if (!fs.existsSync("./dist/ips.json")) {
+  if (!fs.existsSync('./dist/ips.json')) {
     await ip1();
     await ip2();
-    fs.writeFileSync("./dist/ips.json", JSON.stringify(list));
+    fs.writeFileSync('./dist/ips.json', JSON.stringify(list));
   } else {
-    list = JSON.parse(fs.readFileSync("./dist/ips.json", "utf-8"));
+    list = JSON.parse(fs.readFileSync('./dist/ips.json', 'utf-8'));
   }
 
   //   console.log(list);
-  fs.rmSync("./dist/ip.json", {
+  fs.rmSync('./dist/ip.json', {
     recursive: true,
-    force: true,
+    force: true
   });
   await aiTest();
 
-  fs.renameSync("./dist/ip.json", "./build/ip.json");
+  fs.mkdirSync('./build', {
+    recursive: true,
+    mode: 0o777
+  });
+
+  fs.renameSync('./dist/ip.json', './build/ip.json', {
+    recursive: true
+  });
 }
 
 main();
