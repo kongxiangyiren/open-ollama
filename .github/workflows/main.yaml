@@ -3,9 +3,7 @@ name: 公开ollama查询
 on:
   schedule:
     # 定时任务 每天午夜12点执行一次
-    # - cron: "0 0 * * *"
-    # 定时任务 每小时执行一次
-    - cron: '0 * * * *'
+    - cron: '0 0 * * *'
   push:
     branches:
       - main
