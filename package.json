@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "openai": "^4.85.1"
+  },
+  "overrides": {
+    "node-fetch": "^3.3.2"
+  },
+  "resolutions": {
+    "node-fetch": "^3.3.2"
+  }
+}
