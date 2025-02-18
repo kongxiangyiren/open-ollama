@@ -52,8 +52,8 @@
   "133.125.71.63:11434": [
     "llama3.1:8b-instruct-fp16",
     "mistral:instruct",
-    "llama3.1:70b",
     "llama3.1:latest",
+    "llama3.1:70b",
     "llama3:latest",
     "llama3.1:405b",
     "llama3.1:70b-instruct-q8_0",
@@ -87,10 +87,10 @@
     "command-r-plus:104b-08-2024-q8_0",
     "qwen2.5:72b",
     "qwen2:7b",
-    "qwen2.5:14b",
     "gemma2:27b-instruct-q8_0",
-    "qwen2.5:32b",
+    "qwen2.5:14b",
     "mistral-small:latest",
+    "qwen2.5:32b",
     "command-r:latest",
     "command-r-plus:latest",
     "llama3.1:70b-instruct-q8_0",
@@ -155,25 +155,25 @@
     "solar-pro:latest",
     "phi4:latest",
     "qwen2.5-coder:latest",
-    "minicpm-v:8b-2.6-q4_K_M",
     "llama3.2-vision:90b",
     "aiden_lu/minicpm-v2.6:Q4_K_M",
-    "llama3.2-vision:latest",
+    "minicpm-v:8b-2.6-q4_K_M",
     "llama3.2-vision:11b",
+    "llama3.2-vision:latest",
     "minicpm-v:latest",
     "llava:34b",
     "mxbai-embed-large:latest",
     "aya:latest",
     "llama3.2:latest",
     "gemma:latest",
-    "qwen2.5:latest",
     "llava-llama3:latest",
+    "qwen2.5:latest",
     "llava-phi3:latest",
     "llava:latest",
     "nuextract:latest",
     "granite3-guardian:latest",
-    "granite3-dense:latest",
     "granite3-moe:latest",
+    "granite3-dense:latest",
     "llama-guard3:latest"
   ],
   "110.164.135.54:11434": [
@@ -246,26 +246,26 @@
     "llama3.1-70b-8k:latest",
     "llama3.1-70b-32k:latest",
     "llama3.1-32k:latest",
-    "mistral-nemo:latest",
-    "gemma2:latest",
-    "llama3:latest",
-    "llama3:8b",
-    "yi:34b",
-    "qwen2.5:3b",
     "qwen2.5:72b",
+    "llama3.1:70b",
+    "sammcj/codestral-tweaked-22b:q6_k",
+    "llama3:latest",
+    "llama3.1:latest",
+    "llava:34b",
+    "yi:34b",
     "codeqwen:latest",
     "gemma2:2b",
-    "qwen2.5:0.5b",
     "qwen2.5:7b",
-    "llava:34b",
+    "mistral-nemo:latest",
     "qwen2.5:1.5b",
-    "trinsition/minicpmv:latest",
     "hrbxinjun/codeqwenchat:latest",
-    "llama3.1:latest",
-    "sammcj/codestral-tweaked-22b:q6_k",
+    "qwen2.5:32b",
+    "trinsition/minicpmv:latest",
     "phi3.5:latest",
-    "llama3.1:70b",
-    "qwen2.5:32b"
+    "qwen2.5:0.5b",
+    "gemma2:latest",
+    "llama3:8b",
+    "qwen2.5:3b"
   ],
   "34.135.152.206:8090": [
     "deepseek-r1:32b",
@@ -323,8 +323,8 @@
     "phi4:latest",
     "qwen2.5-coder:latest",
     "llama3.1:latest",
-    "llama3.2:3b",
     "llama3.1:70b",
+    "llama3.2:3b",
     "deepseek-r1:14b",
     "llama3.2:1b"
   ],
@@ -455,29 +455,29 @@
     "dolphin-mixtral:latest"
   ],
   "129.128.243.184:11434": [
-    "llama3.3:latest",
     "starcoder2:15b",
+    "llama3.3:latest",
     "deepseek-r1:32b",
-    "smollm2:135m",
     "llama2:latest",
+    "smollm2:135m",
     "mxbai-embed-large:latest",
     "codegemma:latest",
     "qwen2.5-coder:14b",
     "llama3.2:1b",
     "llama3.1:8b",
-    "qwen2.5-coder:32b-instruct-fp16",
     "qwen2.5-coder:32b",
-    "gemma2:27b",
+    "qwen2.5-coder:32b-instruct-fp16",
     "llama3.1:70b",
-    "qwen:32b",
+    "gemma2:27b",
     "codellama:34b",
+    "qwen:32b",
     "qwen:72b",
-    "llama3:70b",
     "codellama:70b",
+    "llama3:70b",
     "mistral-large:latest",
     "deepseek-coder-v2:236b",
-    "deepseek-r1:70b",
     "qwen:110b",
+    "deepseek-r1:70b",
     "llama3.1:405b"
   ],
   "213.128.197.44:11434": [
@@ -574,9 +574,9 @@
     "llama2:latest",
     "llama3.1:8b",
     "llama3.1:70b",
-    "phi3:3.8b",
-    "phi3:mini",
     "phi3:latest",
+    "phi3:mini",
+    "phi3:3.8b",
     "gemma2:latest",
     "gemma2:27b",
     "llama3:latest"
@@ -969,6 +969,7 @@
     "llama3.2:latest"
   ],
   "38.242.131.29:11434": [
+    "qwen2.5:1.5b",
     "bge-m3:latest",
     "smollm2:135m",
     "llama3.2:latest",
@@ -988,10 +989,6 @@
   ],
   "38.45.122.147:11434": [
     "deepseek-r1:70b"
-  ],
-  "20.51.215.110:443": [
-    "huihui_ai/deepseek-r1-abliterated:32b",
-    "llama3.2:latest"
   ],
   "8.134.116.222:11434": [
     "smollm2:135m",
@@ -1015,9 +1012,9 @@
     "smollm2:135m",
     "bge-m3:latest",
     "deepseek-coder-v2:236b",
-    "Qwen2.5-Coder:1.5B",
-    "nomic-embed-text:latest",
     "llama3.2:latest",
+    "nomic-embed-text:latest",
+    "Qwen2.5-Coder:1.5B",
     "deepseek-coder:33b",
     "llama3:latest",
     "deepseek-r1:70b",
@@ -1048,6 +1045,9 @@
     "bge-m3:latest",
     "qwen:0.5b",
     "qwen2:latest"
+  ],
+  "220.250.37.154:11434": [
+    "deepseek-r1:14b"
   ],
   "101.34.252.172:11434": [
     "deepseek-r1:1.5b"
@@ -1081,6 +1081,10 @@
     "deepseek-r1:latest",
     "deepseek-r1:7b",
     "deepseek-r1:1.5b"
+  ],
+  "20.51.215.110:443": [
+    "llama3.2:latest",
+    "huihui_ai/deepseek-r1-abliterated:32b"
   ],
   "47.120.73.123:11434": [
     "nomic-embed-text:latest",
