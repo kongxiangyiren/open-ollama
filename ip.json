@@ -3,6 +3,7 @@
     "mixtral:8x7b"
   ],
   "150.136.112.207:11434": [
+    "deepseek-r1:671b",
     "deepseek-r1:7b",
     "deepseek-r1:70b",
     "closex/neuraldaredevil-8b-abliterated:latest",
@@ -16,8 +17,8 @@
     "qwen2.5:72b-instruct-q8_0",
     "qwen2.5:32b-instruct-fp16",
     "phi4:14b-fp16",
-    "nemotron:70b-instruct-q8_0",
     "mistral-nemo:12b-instruct-2407-fp16",
+    "nemotron:70b-instruct-q8_0",
     "marco-o1:7b-fp16",
     "llama3.2:3b-instruct-fp16",
     "llama3.2:1b-instruct-fp16",
@@ -50,6 +51,8 @@
     "Jais:latest"
   ],
   "133.125.71.63:11434": [
+    "deepseek-r1:671b",
+    "deepseek-r1:14b",
     "llama3.1:8b-instruct-fp16",
     "mistral:instruct",
     "llama3.1:70b",
@@ -63,41 +66,24 @@
     "huihui_ai/qwen2.5-abliterate:32b",
     "llama3.3:70b-instruct-q8_0",
     "qwen2.5-coder:32b",
-    "deepseek-r1:671b",
     "llama2:latest"
-  ],
-  "172.190.64.61:11434": [
-    "SIGJNF/deepseek-r1-671b-1.58bit:latest",
-    "llama3.3:latest",
-    "llama3.1:latest",
-    "mistral:latest",
-    "deepseek-r1:70b",
-    "smollm2:135m",
-    "llama3.3:70b",
-    "nomic-embed-text:latest",
-    "deepseekr1:671B",
-    "llama2:latest",
-    "deepseekr1:custom",
-    "llama3.3:custom",
-    "deepseek-r1:70b-llama-distill-q8_0",
-    "deepseek-r1:70b-llama-distill-fp16"
   ],
   "172.203.159.143:11434": [
     "qwen2.5:7b",
     "command-r-plus:104b-08-2024-q8_0",
-    "qwen2:7b",
     "qwen2.5:72b",
-    "gemma2:27b-instruct-q8_0",
+    "qwen2:7b",
     "qwen2.5:14b",
-    "qwen2.5:32b",
+    "gemma2:27b-instruct-q8_0",
     "mistral-small:latest",
+    "qwen2.5:32b",
     "command-r:latest",
     "command-r-plus:latest",
     "llama3.1:70b-instruct-q8_0",
     "nous-hermes2:34b",
     "solar-pro:22b-preview-instruct-q8_0",
-    "linux6200/bge-reranker-v2-m3:latest",
     "solar:10.7b-instruct-v1-q8_0",
+    "linux6200/bge-reranker-v2-m3:latest",
     "llama2:latest"
   ],
   "184.69.137.242:11434": [
@@ -158,22 +144,22 @@
     "aiden_lu/minicpm-v2.6:Q4_K_M",
     "llama3.2-vision:90b",
     "minicpm-v:8b-2.6-q4_K_M",
-    "llama3.2-vision:latest",
     "llama3.2-vision:11b",
+    "llama3.2-vision:latest",
     "minicpm-v:latest",
     "llava:34b",
-    "aya:latest",
     "mxbai-embed-large:latest",
+    "aya:latest",
     "llama3.2:latest",
     "gemma:latest",
-    "qwen2.5:latest",
     "llava-llama3:latest",
+    "qwen2.5:latest",
     "llava-phi3:latest",
     "llava:latest",
     "nuextract:latest",
     "granite3-guardian:latest",
-    "granite3-moe:latest",
     "granite3-dense:latest",
+    "granite3-moe:latest",
     "llama-guard3:latest"
   ],
   "110.164.135.54:11434": [
@@ -194,21 +180,6 @@
     "llama3.1:70b",
     "qwen2.5-coder:latest",
     "nemotron:70b-instruct-q5_K_M"
-  ],
-  "110.227.206.226:11434": [
-    "deepseek-r1:70b",
-    "gemma2:27b",
-    "gemma:7b-instruct-v1.1-fp16",
-    "llama3.3:latest",
-    "nemotron:latest",
-    "llama3.2:latest",
-    "mistral-small:latest",
-    "llama3.1:70b",
-    "openhermes:7b-mistral-v2.5-fp16",
-    "phi3:3.8b-mini-instruct-4k-fp16",
-    "llama3:8b-instruct-fp16",
-    "mistral:latest",
-    "mixtral:latest"
   ],
   "3.21.49.152:8434": [
     "deepseek-r1:70b",
@@ -246,26 +217,26 @@
     "llama3.1-70b-8k:latest",
     "llama3.1-70b-32k:latest",
     "llama3.1-32k:latest",
+    "qwen2.5:0.5b",
     "qwen2.5:72b",
+    "llama3.1:70b",
+    "trinsition/minicpmv:latest",
+    "mistral-nemo:latest",
+    "llama3:latest",
+    "gemma2:latest",
+    "llama3.1:latest",
+    "qwen2.5:32b",
     "qwen2.5:1.5b",
     "codeqwen:latest",
     "qwen2.5:7b",
-    "trinsition/minicpmv:latest",
-    "hrbxinjun/codeqwenchat:latest",
-    "qwen2.5:3b",
-    "llava:34b",
-    "gemma2:2b",
-    "llama3.1:latest",
-    "mistral-nemo:latest",
-    "yi:34b",
-    "sammcj/codestral-tweaked-22b:q6_k",
     "phi3.5:latest",
-    "qwen2.5:0.5b",
-    "llama3.1:70b",
-    "qwen2.5:32b",
-    "llama3:8b",
-    "gemma2:latest",
-    "llama3:latest"
+    "qwen2.5:3b",
+    "sammcj/codestral-tweaked-22b:q6_k",
+    "llava:34b",
+    "hrbxinjun/codeqwenchat:latest",
+    "gemma2:2b",
+    "yi:34b",
+    "llama3:8b"
   ],
   "34.135.152.206:8090": [
     "deepseek-r1:32b",
@@ -307,21 +278,21 @@
     "gemma2:27b"
   ],
   "195.33.253.178:8082": [
-    "nomic-embed-text:latest",
     "deepseek-r1:8b",
+    "nomic-embed-text:latest",
     "mistral:latest",
     "qwen2:latest",
     "llama3.2:latest",
     "phi3:medium",
-    "phi3:latest",
     "gemma2:latest",
+    "phi3:latest",
     "gemma2:2b",
     "qwq:latest",
     "llama3.2-vision:latest",
     "nemotron-mini:latest",
     "llama3.3:latest",
-    "qwen2.5-coder:latest",
     "phi4:latest",
+    "qwen2.5-coder:latest",
     "llama3.1:latest",
     "llama3.1:70b",
     "llama3.2:3b",
@@ -458,8 +429,8 @@
     "llama3.3:latest",
     "starcoder2:15b",
     "deepseek-r1:32b",
-    "llama2:latest",
     "smollm2:135m",
+    "llama2:latest",
     "mxbai-embed-large:latest",
     "codegemma:latest",
     "qwen2.5-coder:14b",
@@ -472,12 +443,12 @@
     "qwen:32b",
     "codellama:34b",
     "qwen:72b",
-    "llama3:70b",
     "codellama:70b",
+    "llama3:70b",
     "mistral-large:latest",
     "deepseek-coder-v2:236b",
-    "qwen:110b",
     "deepseek-r1:70b",
+    "qwen:110b",
     "llama3.1:405b"
   ],
   "213.128.197.44:11434": [
@@ -536,24 +507,8 @@
     "llama3:70b",
     "llama3:latest"
   ],
-  "34.66.9.112:11434": [
-    "deepseek-r1:32b",
-    "deepseek-r1:14b",
-    "deepseek-r1:8b",
-    "smollm2:135m",
-    "llava:latest",
-    "reflection:70b",
-    "codellama:latest",
-    "sqlcoder:latest",
-    "llama3.1:70b",
-    "mixtral:8x7b-instruct-v0.1-q8_0",
-    "mixtral:8x22b-instruct-v0.1-q3_K_L",
-    "llava:34b",
-    "bakllava:latest",
-    "llama3.1:latest",
-    "mixtral:8x7b"
-  ],
   "145.253.231.183:11434": [
+    "huihui_ai/deepseek-r1-abliterated:32b",
     "qwen2.5:1.5b",
     "deepseek-r1:latest",
     "smollm2:135m",
@@ -574,14 +529,17 @@
     "llama2:latest",
     "llama3.1:8b",
     "llama3.1:70b",
+    "phi3:3.8b",
     "phi3:latest",
     "phi3:mini",
-    "phi3:3.8b",
     "gemma2:latest",
     "gemma2:27b",
     "llama3:latest"
   ],
   "213.144.196.230:11434": [
+    "huihui_ai/deepseek-r1-abliterated:32b-qwen-distill-fp16",
+    "qwen2.5:72b",
+    "deepseek-r1:32b",
     "deepseek-r1:70b-llama-distill-fp16",
     "llama3.3:70b-instruct-q8_0",
     "mistral-small:22b-instruct-2409-fp16",
@@ -801,26 +759,6 @@
     "llama3.1:latest",
     "gemma2:27b"
   ],
-  "210.100.203.235:11434": [
-    "deepseek-coder-v2:16b-lite-base-q4_K_M",
-    "qwen2.5-coder:14b-instruct-q4_K_S",
-    "deepseek-r1:7b-qwen-distill-fp16",
-    "deepseek-r1:1.5b-qwen-distill-fp16",
-    "mxbai-embed-large:latest",
-    "snowflake-arctic-embed2:latest",
-    "llava:latest",
-    "llava:34b",
-    "llava-llama3:latest",
-    "minicpm-v:latest",
-    "llama3.2-vision:latest",
-    "phi4-cs:latest",
-    "qwen2.5-coder-cs:latest",
-    "qwen2.5-coder:latest",
-    "llama3.2-cs:latest",
-    "llama3.2:latest",
-    "phi4:latest",
-    "llama3.1:latest"
-  ],
   "192.155.101.162:9999": [
     "deepseek-r1:32b",
     "deepseek-r1:70b",
@@ -835,6 +773,8 @@
     "llama3.1:8b"
   ],
   "148.251.180.227:11434": [
+    "nomic-embed-text:latest",
+    "llama3.1:latest",
     "deepseek-r1:70b",
     "starcoder2:3b",
     "qwen2.5-coder:32b",
@@ -857,6 +797,27 @@
     "llama3.2:latest",
     "llama3.3:latest",
     "llama3:latest"
+  ],
+  "208.87.2.58:11434": [
+    "orca2:13b",
+    "deepseek-r1:70b",
+    "ALIENTELLIGENCE/webcrawler:latest",
+    "llama3.2:3b",
+    "codegemma:7b",
+    "deepseek-coder-v2:16b",
+    "phi3:latest",
+    "llama3.1:405b",
+    "gemma2:27b",
+    "gemma2:latest",
+    "mistral-nemo:latest",
+    "llama3.1:latest",
+    "phi3:14b",
+    "llama3:latest",
+    "qwen:0.5b",
+    "llava:34b",
+    "llava:latest",
+    "reflection:latest",
+    "llama2-uncensored:latest"
   ],
   "173.208.147.145:11434": [
     "partai/dorna-llama3:latest",
@@ -990,41 +951,6 @@
   "38.45.122.147:11434": [
     "deepseek-r1:70b"
   ],
-  "8.134.116.222:11434": [
-    "smollm2:135m",
-    "deepseek-r1:7b",
-    "llava:latest",
-    "chevalblanc/acge_text_embedding:latest",
-    "llama3:70b-instruct",
-    "shaw/dmeta-embedding-zh:latest",
-    "llama3:latest",
-    "llama3:instruct"
-  ],
-  "49.233.249.79:5432": [
-    "deepseek-r1:70b",
-    "deepseek-r1:1.5b"
-  ],
-  "140.143.168.240:11434": [
-    "smollm2:135m",
-    "qwen2.5:7b"
-  ],
-  "119.91.239.198:11434": [
-    "smollm2:135m",
-    "bge-m3:latest",
-    "deepseek-coder-v2:236b",
-    "llama3.2:latest",
-    "nomic-embed-text:latest",
-    "Qwen2.5-Coder:1.5B",
-    "deepseek-coder:33b",
-    "llama3:latest",
-    "deepseek-r1:70b",
-    "deepseek-r1:32b",
-    "deepseek-coder-v2:16b"
-  ],
-  "183.6.5.58:3000": [
-    "deepseek-r1:70b",
-    "deepseek-r1:32b"
-  ],
   "36.156.156.146:11434": [
     "deepseek-r1:7b",
     "qwen2.5:1.5b",
@@ -1046,11 +972,11 @@
     "qwen:0.5b",
     "qwen2:latest"
   ],
-  "220.250.37.154:11434": [
-    "deepseek-r1:14b"
-  ],
   "101.34.252.172:11434": [
     "deepseek-r1:1.5b"
+  ],
+  "220.250.37.154:11434": [
+    "deepseek-r1:14b"
   ],
   "47.122.120.17:5001": [
     "qwen2.5:0.5b"
@@ -1085,6 +1011,32 @@
   "20.51.215.110:443": [
     "llama3.2:latest",
     "huihui_ai/deepseek-r1-abliterated:32b"
+  ],
+  "8.134.116.222:11434": [
+    "smollm2:135m",
+    "deepseek-r1:7b",
+    "llava:latest",
+    "chevalblanc/acge_text_embedding:latest",
+    "llama3:70b-instruct",
+    "shaw/dmeta-embedding-zh:latest",
+    "llama3:latest",
+    "llama3:instruct"
+  ],
+  "49.233.249.79:5432": [
+    "deepseek-r1:70b",
+    "deepseek-r1:1.5b"
+  ],
+  "140.143.168.240:11434": [
+    "smollm2:135m",
+    "qwen2.5:7b"
+  ],
+  "119.91.239.198:11434": [
+    "deepseek-r1:32b",
+    "deepseek-r1:70b"
+  ],
+  "183.6.5.58:3000": [
+    "deepseek-r1:70b",
+    "deepseek-r1:32b"
   ],
   "47.120.73.123:11434": [
     "nomic-embed-text:latest",
