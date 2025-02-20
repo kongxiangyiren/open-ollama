@@ -61,7 +61,7 @@ async function aiTest() {
   const ipList = Object.keys(list);
 
   for await (const ip of ipList) {
-    const baseUrl = 'http://' + ip + '/v1';
+    const baseUrl = (ip.startsWith('http') ? ip : 'http://' + ip) + '/v1';
     const openai = new OpenAI({
       baseURL: baseUrl,
       apiKey: '',
@@ -87,6 +87,11 @@ async function aiTest() {
       .list()
       .then(res => {
         const modelNameList = res.data.map(item => item.id);
+
+        if (modelNameList.length === 0) {
+          delete list[ip];
+          return console.log(ip, null);
+        }
 
         console.log(ip, 'ok', modelNameList);
 
