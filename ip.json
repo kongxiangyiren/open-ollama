@@ -1,7 +1,14 @@
 {
+  "161.156.129.121:11434": [
+    "mixtral:8x7b"
+  ],
   "150.136.112.207:11434": [
-    "dolphin-mixtral:8x7b",
-    "deepseek-r1:70b"
+    "codestral:latest",
+    "qwen2.5-coder:32b",
+    "nomic-embed-text:latest",
+    "llava:7b",
+    "deepseek-r1:70b",
+    "deepseek-r1:7b"
   ],
   "192.222.58.60:8000": [
     "qwq:32b-preview-fp16",
@@ -95,10 +102,6 @@
   "178.248.158.2:11434": [
     "llama3.3:70b"
   ],
-  "182.227.106.248:11434": [
-    "phi4:latest",
-    "llama3.3:70b"
-  ],
   "129.128.243.184:11434": [
     "codegemma:latest",
     "qwen2.5-coder:32b"
@@ -107,8 +110,8 @@
     "mistral-small:24b-instruct-2501-q4_K_M",
     "medragondot/Sky-T1-32B-Preview:latest",
     "llama3.3:latest",
-    "llama3.2-vision:90b",
     "llama3.2-vision:latest",
+    "llama3.2-vision:90b",
     "huihui_ai/deepseek-r1-abliterated:70b",
     "deepseek-r1:70b",
     "VieAI:latest",
@@ -127,6 +130,7 @@
     "hf.co/bartowski/Chronos-Gold-12B-1.0-GGUF:Q8_0"
   ],
   "145.253.231.183:11434": [
+    "deepseek-r1:7b",
     "mistral:latest",
     "llama3.2-vision:latest",
     "llama3.1:latest",
@@ -212,9 +216,15 @@
   "49.50.123.164:11434": [
     "mistral:latest"
   ],
+  "139.9.46.182:11434": [
+    "bge-m3:latest"
+  ],
   "20.51.215.110:443": [
     "llama3.2:latest",
     "huihui_ai/deepseek-r1-abliterated:32b"
+  ],
+  "8.134.116.222:11434": [
+    "deepseek-r1:14b"
   ],
   "119.91.239.198:11434": [
     "Qwen2.5-Coder:1.5B",
