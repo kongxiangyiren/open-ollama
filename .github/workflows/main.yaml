@@ -2,11 +2,8 @@ name: 公开ollama查询
 
 on:
   schedule:
-    # 定时任务 每天午夜12点执行一次
-    - cron: '0 0 * * *'
-
-  # 设置时区
-  timezone: Asia/Shanghai
+    # 定时任务 每天午夜12点执行一次, UTC时间 +8小时为北京时间
+    - cron: '0 16 * * *'
   push:
     branches:
       - main
@@ -15,6 +12,7 @@ permissions:
   contents: write
 
 env:
+  #  设置时区，jobs 获取为北京时间
   TZ: Asia/Shanghai
 
 jobs:
