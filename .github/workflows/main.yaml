@@ -8,6 +8,9 @@ on:
     branches:
       - main
 
+# 允许手动启动action
+workflow_dispatch:
+
 permissions:
   contents: write
 
