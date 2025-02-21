@@ -4,12 +4,11 @@ on:
   schedule:
     # 定时任务 每天午夜12点执行一次, UTC时间 +8小时为北京时间
     - cron: '0 16 * * *'
+  # 允许手动启动action
+  workflow_dispatch:
   push:
     branches:
       - main
-
-# 允许手动启动action
-workflow_dispatch:
 
 permissions:
   contents: write
