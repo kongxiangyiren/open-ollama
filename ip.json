@@ -3,36 +3,34 @@
     "dolphin-mixtral:8x7b",
     "deepseek-r1:70b"
   ],
-  "162.243.79.180:8888": [
-    "bge-m3:latest",
-    "deepseek-r1:70b",
-    "huihui_ai/phi4-abliterated:latest",
-    "aya:35b",
-    "llama3.3:latest",
-    "llama3.3:70b-instruct-q8_0",
-    "glm4:9b-chat-fp16",
-    "falcon:180b",
-    "falcon3:10b",
-    "qwen2.5:72b"
-  ],
   "133.125.71.63:11434": [
+    "deepseek-r1:70b",
     "deepseek-r1:32b",
     "llama2:latest",
-    "deepseek-r1:70b",
     "deepseek-r1:latest",
     "deepseek-r1:671b",
     "qwen2.5:32b"
   ],
+  "172.190.64.61:11434": [
+    "llama3.3m:latest",
+    "llama3.3:latest",
+    "llama3.3:70b"
+  ],
   "172.203.159.143:11434": [
+    "smollm2:135m",
     "llama2:latest"
   ],
   "184.69.137.242:11434": [
-    "deepseek-r1:14b",
+    "ZimaBlueAI/Qwen2.5-VL-7B-Instruct:latest",
+    "shaw/dmeta-embedding-zh:latest",
+    "bge-m3:latest",
     "smollm2:135m",
-    "deepseek-r1:32b",
-    "huihui_ai/deepseek-r1-abliterated:70b"
+    "huihui_ai/deepseek-r1-abliterated:70b",
+    "deepseek-r1:14b",
+    "deepseek-r1:32b"
   ],
   "104.59.217.59:11434": [
+    "smollm2:135m",
     "llama3.1:8b-instruct-q8_0",
     "llama3.1:8b",
     "llama3.2:3b",
@@ -51,7 +49,10 @@
     "qwen2.5-coder:14b"
   ],
   "20.243.131.115:11434": [
-    "deepseek-r1:671b",
+    "phi4:latest",
+    "dolphin3:latest",
+    "smallthinker:latest",
+    "smollm:1.7b",
     "llama3.2-vision:11b",
     "starcoder2:latest",
     "deepseek-r1:1.5b",
@@ -66,15 +67,25 @@
     "deepseek-r1:32b",
     "deepseek-r1:70b"
   ],
-  "20.57.138.42:11434": [
-    "gemma2:27b",
-    "mistral-small:latest",
-    "phi4:latest"
-  ],
   "35.222.55.49:11434": [
+    "llama3.1:8b",
     "llama3.1:70b",
     "qwen2.5-coder:latest",
     "deepseek-r1:latest"
+  ],
+  "3.21.49.152:8434": [
+    "bge-large:latest",
+    "deepseek-r1-70b-16k:latest",
+    "deepseek-r1-70b-8k:latest",
+    "deepseek-r1:32b-64k",
+    "deepseek-r1:32b-16k",
+    "deepseek-r1:70b",
+    "llama3.3:latest",
+    "phi4:latest",
+    "qwen2.5:32b",
+    "qwen2.5:14b",
+    "qwen2.5:latest",
+    "deepseek-r1:32b"
   ],
   "1.212.203.66:11434": [
     "jmorgan/qwen2vl-test:latest",
@@ -87,9 +98,9 @@
     "exaone3.5:latest"
   ],
   "195.33.253.178:8082": [
-    "qwen2.5-coder:latest",
+    "phi4:latest",
     "deepseek-r1:8b",
-    "phi4:latest"
+    "qwen2.5-coder:latest"
   ],
   "108.68.101.128:11434": [
     "deepseek-r1:70b"
@@ -97,6 +108,9 @@
   "222.122.232.110:14000": [
     "qwen2.5:72b",
     "qwen2.5:32b"
+  ],
+  "182.180.96.214:11434": [
+    "llama3.3:70b"
   ],
   "130.241.129.211:11434": [
     "smollm2:135m",
@@ -107,10 +121,17 @@
     "llama3.3:70b"
   ],
   "113.29.247.195:11434": [
-    "deepseek-r1:latest",
-    "llama2:latest"
+    "llama2:latest",
+    "deepseek-r1:latest"
+  ],
+  "193.106.172.104:11434": [
+    "llama3.2-vision:90b"
+  ],
+  "204.12.218.138:11434": [
+    "deepseek-r1:32b"
   ],
   "3.95.232.212:11434": [
+    "try-hosting:latest",
     "llama3.1:70b",
     "llava:34b",
     "qwen2.5-coder:32b",
@@ -188,9 +209,24 @@
     "llama3.1:8b"
   ],
   "213.144.196.230:11434": [
+    "SIGJNF/deepseek-r1-671b-1.58bit:latest",
+    "llama3.3:70b-instruct-q2_K",
     "llava:13b"
   ],
+  "122.176.146.23:80": [
+    "llama3.2-vision:11b",
+    "MFDoom/deepseek-r1-tool-calling:32b",
+    "MFDoom/deepseek-r1-tool-calling:latest",
+    "llama3.1:latest",
+    "deepseek-r1:32b",
+    "llama3.3:70b",
+    "qwen2.5-coder:14b",
+    "deepseek-coder:6.7b",
+    "llama3.2:latest",
+    "syeddawood/parse_resume:latest"
+  ],
   "117.54.250.177:11434": [
+    "deepseek-r1:14b",
     "qwen2.5:14b",
     "mistral:latest",
     "llama3.1:latest",
@@ -220,6 +256,7 @@
     "llama3.1:latest"
   ],
   "148.251.2.53:80": [
+    "llava:13b",
     "gemma2:27b",
     "gemma2:9b",
     "llama3.2-vision:11b-instruct-fp16"
@@ -234,6 +271,7 @@
     "mxbai-embed-large:latest"
   ],
   "131.72.229.66:11434": [
+    "smollm2:135m",
     "llama3.2:latest"
   ],
   "182.70.254.52:11434": [
@@ -244,6 +282,7 @@
     "deepseek-r1:32b"
   ],
   "148.251.180.227:11434": [
+    "bge-m3:latest",
     "llama3.1:latest",
     "nomic-embed-text:latest",
     "deepseek-r1:32b"
@@ -304,17 +343,20 @@
     "hermes3:latest",
     "llama3.2:latest"
   ],
-  "183.6.26.100:11434": [
+  "38.242.131.29:11434": [
     "deepseek-r1:671b"
   ],
-  "139.9.46.182:11434": [
-    "deepseek-r1:1.5b",
-    "qwen:0.5b",
-    "bge-m3:latest"
+  "38.45.122.150:11434": [
+    "deepseek-r1:1.5b"
   ],
-  "20.51.215.110:443": [
-    "llama3.2:latest",
-    "huihui_ai/deepseek-r1-abliterated:32b"
+  "38.45.122.149:11434": [
+    "deepseek-r1:1.5b"
+  ],
+  "38.45.122.148:11434": [
+    "deepseek-r1:1.5b"
+  ],
+  "38.45.122.147:11434": [
+    "deepseek-r1:1.5b"
   ],
   "8.134.116.222:11434": [
     "deepseek-r1:14b",
@@ -330,6 +372,186 @@
     "deepseek-coder:33b",
     "deepseek-r1:70b",
     "deepseek-r1:32b"
+  ],
+  "183.6.26.100:11434": [
+    "ccccccccccccccccccccccccccccccccccccccccccccccccccccccccc:latest",
+    "cccccccccccccccccccccccccccccccccccccccccccccccccccccccc:latest",
+    "ccccccccccccccccccccccccccccccccccccccccccccccccccccccc:latest",
+    "cccccccccccccccccccccccccccccccccccccccccccccccccccccc:latest",
+    "ccccccccccccccccccccccccccccccccccccccccccccccccccccc:latest",
+    "cccccccccccccccccccccccccccccccccccccccccccccccccccc:latest",
+    "ccccccccccccccccccccccccccccccccccccccccccccccccccc:latest",
+    "cccccccccccccccccccccccccccccccccccccccccccccccccc:latest",
+    "ccccccccccccccccccccccccccccccccccccccccccccccccc:latest",
+    "cccccccccccccccccccccccccccccccccccccccccccccccc:latest",
+    "ccccccccccccccccccccccccccccccccccccccccccccccc:latest",
+    "cccccccccccccccccccccccccccccccccccccccccccccc:latest",
+    "ccccccccccccccccccccccccccccccccccccccccccccc:latest",
+    "cccccccccccccccccccccccccccccccccccccccccccc:latest",
+    "ccccccccccccccccccccccccccccccccccccccccccc:latest",
+    "cccccccccccccccccccccccccccccccccccccccccc:latest",
+    "ccccccccccccccccccccccccccccccccccccccccc:latest",
+    "cccccccccccccccccccccccccccccccccccccccc:latest",
+    "ccccccccccccccccccccccccccccccccccccccc:latest",
+    "cccccccccccccccccccccccccccccccccccccc:latest",
+    "ccccccccccccccccccccccccccccccccccccc:latest",
+    "cccccccccccccccccccccccccccccccccccc:latest",
+    "ccccccccccccccccccccccccccccccccccc:latest",
+    "cccccccccccccccccccccccccccccccccc:latest",
+    "ccccccccccccccccccccccccccccccccc:latest",
+    "cccccccccccccccccccccccccccccccc:latest",
+    "ccccccccccccccccccccccccccccccc:latest",
+    "cccccccccccccccccccccccccccccc:latest",
+    "ccccccccccccccccccccccccccccc:latest",
+    "cccccccccccccccccccccccccccc:latest",
+    "ccccccccccccccccccccccccccc:latest",
+    "cccccccccccccccccccccccccc:latest",
+    "ccccccccccccccccccccccccc:latest",
+    "cccccccccccccccccccccccc:latest",
+    "ccccccccccccccccccccccc:latest",
+    "cccccccccccccccccccccc:latest",
+    "ccccccccccccccccccccc:latest",
+    "cccccccccccccccccccc:latest",
+    "ccccccccccccccccccc:latest",
+    "cccccccccccccccccc:latest",
+    "ccccccccccccccccc:latest",
+    "cccccccccccccccc:latest",
+    "ccccccccccccccc:latest",
+    "cccccccccccccc:latest",
+    "ccccccccccccc:latest",
+    "cccccccccccc:latest",
+    "ccccccccccc:latest",
+    "cccccccccc:latest",
+    "ccccccccc:latest",
+    "cccccccc:latest",
+    "ccccccc:latest",
+    "cccccc:latest",
+    "ccccc:latest",
+    "cccc:latest",
+    "ccc:latest",
+    "a134yffs246783ghjtvsadffdfffffffffffffffffff:latest",
+    "a134yffs246783ghjtvsadffdffffffffffffffffff:latest",
+    "a134yffs246783ghjtvsadffdfffffffffffffffff:latest",
+    "a134yffs246783ghjtvsadffdffffffffffffffff:latest",
+    "a134yffs246783ghjtvsadffdfffffffffffffff:latest",
+    "a134yffs246783ghjtvsadffdffffffffffffff:latest",
+    "a134yffs246783ghjtvsadffdfffffffffffff:latest",
+    "a134yffs246783ghjtvsadffdffffffffffff:latest",
+    "a134yffs246783ghjtvsadffdfffffffffff:latest",
+    "a134yffs246783ghjtvsadffdffffffffff:latest",
+    "a134yffs246783ghjtvsadffdfffffffff:latest",
+    "a134yffs246783ghjtvsadffdffffffff:latest",
+    "a134yffs246783ghjtvsadffdfffffff:latest",
+    "a134yffs246783ghjtvsadffdffffff:latest",
+    "a134yffs246783ghjtvsadffdffff:latest",
+    "a134yffs246783ghjtvsadffdfffff:latest",
+    "a134yffs246783ghjtvsadffdfff:latest",
+    "a134yffs246783ghjtvsadffdff:latest",
+    "a134yffs246783ghjtvsadffdf:latest",
+    "a134yffs246783ghjtvsadffd:latest",
+    "a134yffs246783ghjtvsadff:latest",
+    "a134yffs246783ghjtvsad:latest",
+    "a134yffs246783ghjtvsa:latest",
+    "a134yffs246783ghjtvs:latest",
+    "a134yffs246783ghjtv:latest",
+    "a134yffs246783ghjt:latest",
+    "a134yffs246783ghj:latest",
+    "a134yffs246783gh:latest",
+    "a134yffs246783g:latest",
+    "a134yffs246783:latest",
+    "a134yffs24678:latest",
+    "a134yffs2467:latest",
+    "a134yffs246:latest",
+    "a134yffs24:latest",
+    "a134yffs2:latest",
+    "a134yffs:latest",
+    "a134yff:latest",
+    "a1345655uu6u655657ty:latest",
+    "a1345655uu6u655657:latest",
+    "a1345655uu6u6556:latest",
+    "a1345655uu6u65:latest",
+    "a1345655uu6:latest",
+    "a1345655u:latest",
+    "a1345655:latest",
+    "a134567:latest",
+    "a13456:latest",
+    "a1345:latest",
+    "a134:latest",
+    "a13:latest",
+    "a12:latest",
+    "a1:latest",
+    "a:latest",
+    "a123:latest",
+    "choushabi:latest",
+    "111234567890-:latest",
+    "111234567890:latest",
+    "11123456789:latest",
+    "1112345678:latest",
+    "111234567:latest",
+    "11123456:latest",
+    "1112345:latest",
+    "111234:latest",
+    "11123:latest",
+    "1112:latest",
+    "111:latest",
+    "sb1234567890441asfugdaufgasfuggiafs5454464985465144488sd4czx4c6z4cz:latest",
+    "sb1234567890441:latest",
+    "sb123456789044:latest",
+    "sb1234567890qwertyuiopassdfghjklzxcxvbnm:latest",
+    "sb1234567890qwertyuiopassdfghjklzxcxvbn:latest",
+    "sb1234567890qwertyuiopassdfghjklzxcxvb:latest",
+    "sb1234567890qwertyuiopassdfghjklzxcxv:latest",
+    "sb1234567890qwertyuiopassdfghjklzxcx:latest",
+    "sb1234567890qwertyuiopassdfghjklzxc:latest",
+    "sb1234567890qwertyuiopassdfghjklzx:latest",
+    "sb1234567890qwertyuiopassdfghjklz:latest",
+    "sb1234567890qwertyuiopassdfghjkl:latest",
+    "sb1234567890qwertyuiopassdfghjk:latest",
+    "sb1234567890qwertyuiopassdfghj:latest",
+    "sb1234567890qwertyuiopassdfgh:latest",
+    "sb1234567890qwertyuiopassdfg:latest",
+    "sb1234567890qwertyuiopassdf:latest",
+    "sb1234567890qwertyuiopassd:latest",
+    "sb1234567890qwertyuiopass:latest",
+    "sb1234567890qwertyuiopas:latest",
+    "sb1234567890qwertyuiopa:latest",
+    "sb1234567890qwertyuiop:latest",
+    "sb1234567890qwertyuio:latest",
+    "sb1234567890qwertyui:latest",
+    "sb1234567890qwertyu:latest",
+    "sb1234567890qwerty:latest",
+    "sb1234567890qwert:latest",
+    "sb1234567890qwer:latest",
+    "sb1234567890qwe:latest",
+    "sb1234567890qw:latest",
+    "sb1234567890q:latest",
+    "sb1234567890:latest",
+    "sb123456789:latest",
+    "sb12345678:latest",
+    "sb1234567:latest",
+    "sb123456:latest",
+    "sb12345:latest",
+    "sb1234:latest",
+    "sb123:latest",
+    "sb12:latest",
+    "sb1:latest",
+    "sb:latest",
+    "1:latest",
+    "deepseek-r1:671b"
+  ],
+  "139.9.46.182:11434": [
+    "deepseek-r1:1.5b",
+    "qwen:0.5b",
+    "bge-m3:latest"
+  ],
+  "20.51.215.110:443": [
+    "llama3.2:latest",
+    "huihui_ai/deepseek-r1-abliterated:32b"
+  ],
+  "218.17.141.219:11434": [
+    "deepseek-r1:32b",
+    "bge-large:latest",
+    "qwen2.5:14b-instruct-q5_K_M"
   ],
   "110.41.11.204:9009": [
     "qwen2-math:latest",
@@ -358,11 +580,6 @@
   ],
   "122.51.67.85:8000": [
     "deepseek-r1:1.5b"
-  ],
-  "218.17.141.219:11434": [
-    "deepseek-r1:32b",
-    "bge-large:latest",
-    "qwen2.5:14b-instruct-q5_K_M"
   ],
   "116.205.186.131:11434": [
     "bge-m3:latest"
