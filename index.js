@@ -9,9 +9,20 @@ fs.mkdirSync('./dist', {
   mode: 0o777
 });
 async function ip1() {
-  const { data } = await axios.get('http://23.95.20.225:8000/').catch(err => {
-    console.log(err);
-  });
+  const { data } = await axios
+    .get('http://23.95.20.225:8000/', {
+      timeout: 5 * 1000
+    })
+    .catch(err => {
+      console.log(err);
+      return {
+        data: ''
+      };
+    });
+  if (data === '') {
+    console.log('ip1 error');
+    return;
+  }
 
   //   console.log(data);
   const $ = load(data);
@@ -32,9 +43,21 @@ async function ip1() {
 }
 
 async function ip2() {
-  const { data } = await axios.get('https://freeollama.oneplus1.top/').catch(err => {
-    console.log(err);
-  });
+  const { data } = await axios
+    .get('https://freeollama.oneplus1.top/', {
+      timeout: 5 * 1000
+    })
+    .catch(err => {
+      console.log(err);
+      return {
+        data: ''
+      };
+    });
+
+  if (data === '') {
+    console.log('ip2 error');
+    return;
+  }
 
   //   console.log(data);
 
