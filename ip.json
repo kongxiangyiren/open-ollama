@@ -10,17 +10,63 @@
     "deepseek-r1:1.5b",
     "llama3.1:8b"
   ],
+  "36.140.15.241:11434": [
+    "deepseek-r1:latest",
+    "deepseek-v2-nsfw:latest",
+    "llama3.1-nsfw:8b",
+    "deepseek-nsfw:70b",
+    "mxbai-embed-large:latest",
+    "qwen2.5:14b"
+  ],
+  "36.133.127.91:11434": [
+    "bge-m3:latest",
+    "deepseek-r1:32b",
+    "qwen2.5:32b",
+    "deepseek-r1:14b"
+  ],
   "45.126.120.39:11434": [
     "deepseek-r1:14b",
     "deepseek-r1:7b",
     "mxbai-embed-large:latest",
     "deepseek-r1:1.5b"
   ],
-  "203.202.236.99:11434": [
+  "160.202.244.103:11434": [
+    "Karyl:latest",
+    "Furina:latest",
+    "qwq:latest",
+    "qwen2.5:14b",
+    "qwen2.5:3b",
+    "qwen2.5:7b",
+    "llama3.2:3b",
+    "llama3.1:8b",
+    "deepseek-r1-abliterated_kjy:32b",
+    "deepseek-r1-abliterated_kjy:14b",
+    "deepseek-r1-abliterated_kjy:8b",
+    "deepseek-r1:7b",
     "nomic-embed-text:latest",
-    "deepseek-r1:14b"
+    "deepseek-r1_kjy:32b",
+    "deepseek-r1_kjy:14b",
+    "deepseek-r1_kjy:8b"
   ],
-  "110.40.70.127:11434": [
+  "61.149.185.106:11434": [
+    "deepseek-r1:70b",
+    "deepseek-r1:8b"
+  ],
+  "112.91.138.94:11434": [
+    "qwq:latest",
+    "nomic-embed-text:latest",
+    "deepseek-r1:70b"
+  ],
+  "111.47.230.130:11434": [
+    "qwq:latest",
+    "bge-m3:latest",
+    "deepseek-r1:70b"
+  ],
+  "120.77.168.133:11434": [
+    "my-bge-large-zh-v1.5:latest",
+    "bge-large:latest",
+    "nomic-embed-text:latest",
+    "deepseek-r1:7b",
     "deepseek-r1:1.5b"
   ],
   "8.130.23.228:11434": [
@@ -38,22 +84,10 @@
     "bge-m3:latest",
     "llama3.2:latest"
   ],
-  "120.77.168.133:11434": [
-    "my-bge-large-zh-v1.5:latest",
-    "bge-large:latest",
-    "nomic-embed-text:latest",
-    "deepseek-r1:7b",
-    "deepseek-r1:1.5b"
-  ],
   "8.130.77.205:11434": [
     "deepseek-r1:7b",
     "deepseek-r1:1.5b",
     "deepseek-r1:8b"
-  ],
-  "8.134.252.254:11434": [
-    "phi4:latest",
-    "qwen2.5:32b",
-    "deepseek-r1:32b"
   ],
   "8.155.27.144:11434": [
     "deepseek-r1:1.5b"
@@ -70,14 +104,26 @@
   "36.134.135.220:11434": [
     "qwen2.5:0.5b"
   ],
+  "120.237.156.195:11434": [
+    "qwen2:1.5b",
+    "qwen2.5-9B-Instruct:latest",
+    "qwen-7b-q8:latest"
+  ],
+  "203.202.236.99:11434": [
+    "nomic-embed-text:latest",
+    "deepseek-r1:14b"
+  ],
   "47.120.50.176:11434": [
     "smollm2:135m",
     "deepseek-r1:1.5b",
     "deepseek-r1:8b",
     "nomic-embed-text:latest"
   ],
-  "103.237.248.22:11434": [
-    "qwq:latest",
+  "110.40.70.127:11434": [
+    "deepseek-r1:1.5b"
+  ],
+  "110.248.76.174:11434": [
+    "ZimaBlueAI/HuatuoGPT-o1-8B:latest",
     "deepseek-r1:1.5b"
   ],
   "145.253.231.183:11434": [
@@ -167,26 +213,9 @@
     "smollm2:135m",
     "deepseek-r1:8b"
   ],
-  "120.237.156.195:11434": [
-    "qwen2:1.5b",
-    "qwen2.5-9B-Instruct:latest",
-    "qwen-7b-q8:latest"
-  ],
-  "36.139.11.143:11434": [
-    "qwq:latest",
-    "smollm2:135m",
-    "deepseek-r1:32b",
-    "nomic-embed-text:latest"
-  ],
-  "47.108.131.158:11434": [
-    "smollm2:135m",
-    "deepseek-r1:32b",
-    "deepseek-r1:70b"
-  ],
-  "120.233.202.55:11434": [
-    "bge-m3:567m",
-    "deepseek-r1:latest",
-    "deepseek-r1:70b"
+  "47.98.233.223:11434": [
+    "deepseek-R1:latest",
+    "deepseek-r1:1.5b"
   ],
   "220.250.37.154:11434": [
     "smollm2:135m",
@@ -237,23 +266,48 @@
   "36.138.112.86:11434": [
     "deepseek-r1:14b"
   ],
+  "47.108.131.158:11434": [
+    "smollm2:135m",
+    "deepseek-r1:32b",
+    "deepseek-r1:70b"
+  ],
+  "116.140.216.155:11434": [
+    "qwq:latest",
+    "erwan2/DeepSeek-Janus-Pro-7B:latest",
+    "shaw/dmeta-embedding-zh:latest",
+    "ZimaBlueAI/HuatuoGPT-o1-8B:latest",
+    "bge-m3:latest",
+    "qwen2.5:14b",
+    "deepseek-r1:14b"
+  ],
   "150.158.182.171:11434": [
     "smollm2:135m",
     "deepseek-r1:1.5b"
   ],
-  "202.109.201.209:11434": [
-    "qwq:32b-fp16",
-    "qwq:latest",
-    "deepseek-r1:32b",
+  "152.136.108.158:11434": [
     "deepseek-r1:14b",
-    "deepseek-r1:8b",
-    "deepseek-r1:7b",
-    "deepseek-r1:1.5b",
-    "qwen2.5:latest",
-    "qwen2.5:3b"
+    "openchat:latest"
   ],
-  "61.149.185.106:11434": [
-    "deepseek-r1:70b",
+  "163.177.106.216:11434": [
+    "nomic-embed-text:latest",
+    "deepseek-r1:1.5b"
+  ],
+  "192.144.140.119:11434": [
+    "linux6200/bge-reranker-v2-m3:latest",
+    "nomic-embed-text:latest",
+    "deepseek-r1:1.5b"
+  ],
+  "183.220.129.95:11434": [
+    "category:latest",
+    "table:latest",
+    "deepseek-r1:32b",
+    "db:latest"
+  ],
+  "146.56.220.240:11434": [
+    "deepseek-coder:latest",
+    "deepseek-r1:latest"
+  ],
+  "61.164.252.203:11434": [
     "deepseek-r1:8b"
   ],
   "183.6.26.100:11434": [
@@ -310,6 +364,7 @@
     "deepseek-r1:14b"
   ],
   "36.133.180.109:11434": [
+    "Yinr/Tifa-qwen2-v0.1:7b",
     "bge-reranker-v2-m3:latest",
     "deepseek-r1:32b",
     "bge-m3:latest",
@@ -322,19 +377,21 @@
     "deepseek-r1:14b",
     "deepseek-r1:32b"
   ],
-  "146.56.220.240:11434": [
-    "deepseek-coder:latest",
-    "deepseek-r1:latest"
+  "36.139.11.143:11434": [
+    "qwq:latest",
+    "smollm2:135m",
+    "deepseek-r1:32b",
+    "nomic-embed-text:latest"
   ],
-  "36.137.100.209:11434": [
-    "deepseek-r1:1.5b",
-    "bge-m3:latest",
+  "117.134.14.142:11434": [
+    "deepseek-r1:70b",
     "deepseek-r1:32b",
     "deepseek-r1:14b",
-    "deepseek-r1:7b"
+    "llama3:8b"
   ],
-  "36.156.124.58:11434": [
-    "deepseek-r1:7b"
+  "159.27.114.184:11434": [
+    "deepseek-r1:70b",
+    "nomic-embed-text:latest"
   ],
   "122.51.67.85:8000": [
     "deepseek-r1:1.5b"
@@ -419,32 +476,7 @@
     "deepseek-r1:8b",
     "deepseek-r1:1.5b"
   ],
-  "36.213.198.95:11434": [
-    "qwq:latest",
-    "qwen:32b",
-    "qllama/bge-large-zh-v1.5:latest",
-    "qllama/bge-reranker-v2-m3:latest",
-    "qllama/bge-m3:latest",
-    "deepseek-r1:1.5b",
-    "deepseek-r1:32b"
-  ],
-  "47.109.91.164:11434": [
-    "deepseek-r1:32b",
-    "deepseek-r1:7b",
-    "deepseek-r1:14b",
-    "llama3:latest",
-    "qwen:32b-chat-v1.5-q4_0",
-    "qwen:14b",
-    "qwen:7b",
-    "mistral:latest",
-    "llama2:latest",
-    "gemma:7b"
-  ],
-  "39.187.66.30:11434": [
-    "deepseek-r1:32b",
-    "deepseek-r1:7b",
-    "deepseek-r1:1.5b",
-    "deepseek-r1:8b",
+  "103.139.212.228:11434": [
     "deepseek-r1:14b"
   ],
   "36.137.196.74:11434": [
@@ -465,10 +497,6 @@
     "qwen2.5-coder:32b",
     "deepseek-r1:70b",
     "nomic-embed-text:latest"
-  ],
-  "36.212.39.149:11434": [
-    "deepseek-r1:32b",
-    "deepseek-r1:1.5b"
   ],
   "36.213.197.35:11434": [
     "deepseek-r1:32b"
@@ -526,21 +554,9 @@
     "nvjob/DeepSeek-R1-32B-Cline:latest",
     "deepseek-coder-v2:latest"
   ],
-  "47.108.65.220:11434": [
-    "deepseek-r1:7b",
-    "deepseek-r1:14b"
-  ],
-  "61.169.152.170:11434": [
-    "deepseek-coder-v2:latest",
-    "deepseek-r1:14b"
-  ],
   "120.211.219.174:11434": [
     "phi4:latest",
     "deepseek-r1:32b"
-  ],
-  "152.136.108.158:11434": [
-    "deepseek-r1:14b",
-    "openchat:latest"
   ],
   "8.139.5.140:11434": [
     "deepseek-r1:1.5b",
@@ -611,6 +627,8 @@
     "glm4:latest"
   ],
   "14.221.237.115:11434": [
+    "qwq:32b-q8_0",
+    "qwq:latest",
     "smollm2:135m",
     "qwen2.5:14b",
     "bge-m3:latest",
@@ -634,59 +652,27 @@
     "nomic-embed-text:latest",
     "deepseek-r1:32b"
   ],
-  "163.177.106.216:11434": [
-    "nomic-embed-text:latest",
-    "deepseek-r1:1.5b"
-  ],
-  "192.144.140.119:11434": [
-    "linux6200/bge-reranker-v2-m3:latest",
-    "nomic-embed-text:latest",
-    "deepseek-r1:1.5b"
-  ],
-  "36.133.181.11:11434": [
-    "deepseek-r1:8b",
-    "deepseek-r1:14b",
-    "deepseek-r1:32b",
-    "nomic-embed-text:latest",
+  "202.75.212.100:11434": [
     "deepseek-r1:1.5b",
-    "bge-m3:latest",
+    "qwq:32b",
+    "deepseek-r1:32b-qwen-distill-q8_0",
+    "qwq:32b-q8_0",
+    "deepseek-r1:32b"
+  ],
+  "27.19.116.24:11434": [
+    "nomic-embed-text:latest",
+    "deepseek-r1:14b",
+    "qwen:7b"
+  ],
+  "36.137.129.151:11434": [
     "deepseek-r1:70b"
   ],
-  "183.220.129.95:11434": [
-    "category:latest",
-    "table:latest",
-    "deepseek-r1:32b",
-    "db:latest"
-  ],
-  "1.94.33.174:11434": [
-    "bge-m3:latest",
-    "deepseek-r1:1.5B"
-  ],
-  "1.194.161.178:11434": [
-    "bge-m3:latest",
-    "deepseek-r1:32b",
+  "36.137.100.209:11434": [
     "deepseek-r1:1.5b",
-    "deepseek-r1:14b"
-  ],
-  "8.136.126.105:11434": [
-    "qwq:latest",
-    "milkey/deepseek-r1-UD:IQ1_S",
-    "qwen2.5:3b",
-    "qwen2.5:7b",
-    "deepseek-r1:70b",
-    "deepseek-r1:32b",
-    "milkey/deepseek-v2.5-1210-UD:IQ1_S",
-    "milkey/deepseek-v3-UD:IQ1_M-14",
-    "milkey/deepseek-r-UD:IQ1_M-14",
-    "qwen2.5:32b",
-    "milkey/m3e-n0gpu:latest",
-    "bge-m3-n0gpu:latest",
-    "milkey/deepseek-r1-UD:IQ1_M",
-    "milkey/deepseek-v3-UD:IQ1_M",
-    "milkey/deepseek-v2.5-1210-UD:IQ1_M",
-    "qwen2.5:14b",
     "bge-m3:latest",
-    "milkey/m3e:latest"
+    "deepseek-r1:32b",
+    "deepseek-r1:14b",
+    "deepseek-r1:7b"
   ],
   "8.129.82.38:11434": [
     "smollm2:135m",
@@ -700,6 +686,9 @@
   ],
   "8.140.200.115:11434": [
     "deepseek-r1:14b"
+  ],
+  "8.152.206.20:11434": [
+    "qwen2.5:0.5b"
   ],
   "8.155.3.28:11434": [
     "deepseek-r1:latest"
@@ -728,13 +717,29 @@
     "deepseek-r1:70b",
     "deepseek-r1:14b"
   ],
-  "36.140.15.241:11434": [
-    "deepseek-r1:latest",
-    "deepseek-v2-nsfw:latest",
-    "llama3.1-nsfw:8b",
-    "deepseek-nsfw:70b",
-    "mxbai-embed-large:latest",
-    "qwen2.5:14b"
+  "1.94.33.174:11434": [
+    "bge-m3:latest",
+    "deepseek-r1:1.5B"
+  ],
+  "8.136.126.105:11434": [
+    "qwq:latest",
+    "milkey/deepseek-r1-UD:IQ1_S",
+    "qwen2.5:3b",
+    "qwen2.5:7b",
+    "deepseek-r1:70b",
+    "deepseek-r1:32b",
+    "milkey/deepseek-v2.5-1210-UD:IQ1_S",
+    "milkey/deepseek-v3-UD:IQ1_M-14",
+    "milkey/deepseek-r-UD:IQ1_M-14",
+    "qwen2.5:32b",
+    "milkey/m3e-n0gpu:latest",
+    "bge-m3-n0gpu:latest",
+    "milkey/deepseek-r1-UD:IQ1_M",
+    "milkey/deepseek-v3-UD:IQ1_M",
+    "milkey/deepseek-v2.5-1210-UD:IQ1_M",
+    "qwen2.5:14b",
+    "bge-m3:latest",
+    "milkey/m3e:latest"
   ],
   "36.41.65.152:11434": [
     "smollm2:135m",
@@ -742,22 +747,33 @@
     "deepseek-r1:8b",
     "deepseek-r1:1.5b"
   ],
-  "36.133.127.91:11434": [
-    "bge-m3:latest",
+  "39.187.66.30:11434": [
     "deepseek-r1:32b",
-    "qwen2.5:32b",
+    "deepseek-r1:7b",
+    "deepseek-r1:1.5b",
+    "deepseek-r1:8b",
     "deepseek-r1:14b"
   ],
-  "47.98.233.223:11434": [
-    "deepseek-R1:latest",
+  "111.46.205.80:11434": [
+    "deepseek-r1:1.5b",
+    "deepseek-r1:32b"
+  ],
+  "182.123.77.103:11434": [
+    "qwen2.5-coder:14b",
+    "qwen2.5-coder:32b",
+    "qwen2.5:32b",
+    "qwen2.5-coder:3b",
+    "qwen2.5:14b",
+    "qwq:latest",
+    "DeepSeek-R1-UD-IQ1_M:671b",
+    "deepseek-r1:32b",
+    "deepseek-r1:70b"
+  ],
+  "210.12.84.70:11434": [
+    "deepseek-r1:7b",
     "deepseek-r1:1.5b"
   ],
-  "116.140.216.155:11434": [
-    "qwq:latest",
-    "erwan2/DeepSeek-Janus-Pro-7B:latest",
-    "shaw/dmeta-embedding-zh:latest",
-    "ZimaBlueAI/HuatuoGPT-o1-8B:latest",
-    "bge-m3:latest",
+  "223.240.185.75:11434": [
     "qwen2.5:14b",
     "deepseek-r1:14b"
   ],
@@ -784,6 +800,18 @@
     "smollm2:135m",
     "deepseek-r1:70b",
     "deepseek-r1:32b"
+  ],
+  "8.130.77.203:11434": [
+    "qwq:latest",
+    "bge-m3:latest",
+    "thirdeyeai/DeepSeek-R1-Distill-Qwen-7B-uncensored:latest",
+    "huihui_ai/deepseek-r1-abliterated:14b",
+    "deepseek-r1:14b",
+    "qwen2.5-coder:14b",
+    "minicpm-v:latest",
+    "llama3.2-vision:latest",
+    "mxbai-embed-large:latest",
+    "nomic-embed-text:v1.5"
   ],
   "8.139.6.111:11434": [
     "bge-m3:latest"
@@ -833,20 +861,29 @@
     "deepseek-r1:latest",
     "deepseek-r1:32b"
   ],
-  "36.133.18.27:11434": [
-    "smollm2:135m",
-    "nomic-embed-text:latest",
+  "36.213.198.95:11434": [
+    "qwq:latest",
+    "qwen:32b",
+    "qllama/bge-large-zh-v1.5:latest",
+    "qllama/bge-reranker-v2-m3:latest",
+    "qllama/bge-m3:latest",
+    "deepseek-r1:1.5b",
+    "deepseek-r1:32b"
+  ],
+  "47.109.91.164:11434": [
+    "deepseek-r1:32b",
+    "deepseek-r1:7b",
     "deepseek-r1:14b",
-    "deepseek-r1:7b",
-    "deepseek-r1:70b"
+    "llama3:latest",
+    "qwen:32b-chat-v1.5-q4_0",
+    "qwen:14b",
+    "qwen:7b",
+    "mistral:latest",
+    "llama2:latest",
+    "gemma:7b"
   ],
-  "47.122.59.30:11434": [
-    "gpt-3.5-turbo-0613",
-    "gpt-4o-mini"
-  ],
-  "103.237.249.211:11434": [
-    "deepseek-r1:7b",
-    "deepseek-r1:1.5b"
+  "36.134.70.233:11434": [
+    "llama3.2:latest"
   ],
   "36.111.151.110:11434": [
     "deepseek-r1:70b"
@@ -900,9 +937,6 @@
   "8.130.139.20:11434": [
     "deepseek-r1:7b"
   ],
-  "8.153.15.206:11434": [
-    "deepseek-r1:14b"
-  ],
   "8.153.98.77:11434": [
     "deepseek-r1:32b"
   ],
@@ -926,6 +960,12 @@
     "llama2:latest",
     "deepseek-r1:1.5b"
   ],
+  "8.153.15.206:11434": [
+    "deepseek-r1:14b"
+  ],
+  "36.213.203.24:11434": [
+    "deepseek-r1:8b"
+  ],
   "36.139.133.138:11434": [
     "llama2:latest",
     "deepseek-r1:1.5b"
@@ -936,9 +976,6 @@
   "36.212.51.184:11434": [
     "qwen2.5:latest",
     "aerok/xiaobu-embedding-v2:latest"
-  ],
-  "36.213.203.24:11434": [
-    "deepseek-r1:8b"
   ],
   "36.212.226.119:11434": [
     "qwen2.5-coder:latest",
@@ -954,15 +991,30 @@
     "deepseek-r1:7b",
     "deepseek-r1:1.5b"
   ],
+  "47.108.65.220:11434": [
+    "deepseek-r1:7b",
+    "deepseek-r1:14b"
+  ],
+  "61.169.152.170:11434": [
+    "deepseek-coder-v2:latest",
+    "deepseek-r1:14b"
+  ],
   "139.9.59.177:11434": [
     "deepseek-r1:1.5b"
   ],
-  "125.92.52.55:11434": [
-    "erwan2/DeepSeek-Janus-Pro-7B:latest",
+  "36.133.18.27:11434": [
+    "smollm2:135m",
+    "nomic-embed-text:latest",
     "deepseek-r1:14b",
-    "hf.co/mradermacher/deepseek-r1-qwen-2.5-32B-ablated-GGUF:Q4_K_M",
-    "deepseek-r1:32b",
-    "deepseek-r1:1.5b"
+    "deepseek-r1:7b",
+    "deepseek-r1:70b"
+  ],
+  "47.122.59.30:11434": [
+    "gpt-3.5-turbo-0613",
+    "gpt-4o-mini"
+  ],
+  "183.245.146.109:11434": [
+    "qwen2-1.5b:latest"
   ],
   "36.133.137.22:11434": [
     "deepseek-r1:14b"
@@ -1045,32 +1097,34 @@
   "218.95.37.58:11434": [
     "modelscope.cn/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF:latest"
   ],
-  "146.56.250.80:11434": [
-    "deepseek-r1:32b",
-    "deepseek-r1:14b"
-  ],
-  "150.129.138.250:11434": [
+  "36.133.181.11:11434": [
+    "deepseek-r1:8b",
     "deepseek-r1:14b",
-    "deepseek-r1:7b",
-    "deepseek-r1:1.5b"
-  ],
-  "159.27.114.184:11434": [
-    "deepseek-r1:70b",
-    "nomic-embed-text:latest"
-  ],
-  "111.67.202.146:11434": [
-    "deepseek-r1:32b"
-  ],
-  "110.248.76.174:11434": [
-    "deepseek-r1:1.5b"
-  ],
-  "42.123.105.130:11434": [
-    "qwq:latest",
-    "erwan2/DeepSeek-R1-Distill-Qwen-1.5B:latest",
     "deepseek-r1:32b",
+    "nomic-embed-text:latest",
     "deepseek-r1:1.5b",
-    "qwen2.5-coder:32b",
-    "llama3.1:8b"
+    "bge-m3:latest",
+    "deepseek-r1:70b"
+  ],
+  "202.109.201.209:11434": [
+    "qwq:32b-fp16",
+    "qwq:latest",
+    "deepseek-r1:32b",
+    "deepseek-r1:14b",
+    "deepseek-r1:8b",
+    "deepseek-r1:7b",
+    "deepseek-r1:1.5b",
+    "qwen2.5:latest",
+    "qwen2.5:3b"
+  ],
+  "36.139.139.103:11434": [
+    "smollm2:135m",
+    "deepseek-r1:32b",
+    "nomic-embed-text:latest",
+    "qwen:7b",
+    "my-QwenQ4:latest",
+    "bge-m3:latest",
+    "deepseek-r1:14b"
   ],
   "27.25.149.224:11434": [
     "llava-llama3:latest",
@@ -1121,22 +1175,15 @@
     "deepseek-r1:32b",
     "deepseek-r1:latest"
   ],
+  "61.187.200.218:11434": [
+    "BGE-M3:latest",
+    "huihui_ai/deepseek-r1-abliterated:14b",
+    "huihui_ai/deepseek-r1-abliterated:32b",
+    "deepseek-r1:14b"
+  ],
   "103.181.234.62:11434": [
     "bge-m3:latest",
     "deepseek-r1:14b"
-  ],
-  "103.205.7.75:11434": [
-    "qwq:32b",
-    "EntropyYue/jina-embeddings-v2-base-zh:latest",
-    "herald/dmeta-embedding-zh:latest",
-    "quentinz/bge-large-zh-v1.5:latest",
-    "shaw/dmeta-embedding-zh:latest",
-    "qwen2.5:32b",
-    "bge-large:latest",
-    "nomic-embed-text:latest",
-    "deepseek-r1:14b",
-    "deepseek-r1:32b",
-    "modelscope2ollama-registry.azurewebsites.net/Embedding-GGUF/nomic-embed-text-v1.5-Q4_K_M-GGUF:latest"
   ],
   "113.108.87.166:11434": [
     "deepseek-r1:70b",
@@ -1155,27 +1202,60 @@
     "deepseek-r1:8b",
     "deepseek-r1:14b"
   ],
-  "36.139.139.103:11434": [
-    "smollm2:135m",
+  "146.56.250.80:11434": [
     "deepseek-r1:32b",
-    "nomic-embed-text:latest",
-    "my-QwenQ4:latest",
-    "qwen:7b",
-    "bge-m3:latest",
     "deepseek-r1:14b"
+  ],
+  "150.129.138.250:11434": [
+    "deepseek-r1:14b",
+    "deepseek-r1:7b",
+    "deepseek-r1:1.5b"
   ],
   "49.232.26.4:11434": [
     "deepseek-r1:1.5b"
+  ],
+  "111.67.202.146:11434": [
+    "deepseek-r1:32b"
+  ],
+  "42.123.105.130:11434": [
+    "qwq:latest",
+    "erwan2/DeepSeek-R1-Distill-Qwen-1.5B:latest",
+    "deepseek-r1:32b",
+    "deepseek-r1:1.5b",
+    "qwen2.5-coder:32b",
+    "llama3.1:8b"
   ],
   "116.140.210.109:11434": [
     "deepseek-r1:32b",
     "nomic-embed-text:latest",
     "deepseek-r1:14b"
   ],
-  "8.141.26.248:11434": [
-    "smollm2:135m",
-    "deepseek-r1:8b",
+  "116.171.167.23:11434": [
+    "deepseek-r1:14b",
+    "deepseek-r1:32b",
+    "deepseek-r1:1.5b",
+    "DeepSeek-R1-Distill-Llama-8B-Q3_K_M:latest",
+    "zh:latest"
+  ],
+  "117.159.64.252:11434": [
+    "deepseek-r1:1.5b"
+  ],
+  "36.156.124.58:11434": [
     "deepseek-r1:7b"
+  ],
+  "61.142.254.7:11434": [
+    "deepseek-r1:latest",
+    "wizardlm2:7b",
+    "codellama:7b",
+    "llava:7b",
+    "starcoder2:7b",
+    "qwen2:7b",
+    "phi3:3.8b",
+    "gemma:2b",
+    "deepseek-r1:7b"
+  ],
+  "139.155.158.108:11434": [
+    "deepseek-r1:1.5b"
   ],
   "8.134.196.213:11434": [
     "deepseek-coder:6.7b",
@@ -1283,6 +1363,11 @@
     "smollm2:135m",
     "deepseek-r1:14b"
   ],
+  "8.141.26.248:11434": [
+    "smollm2:135m",
+    "deepseek-r1:8b",
+    "deepseek-r1:7b"
+  ],
   "203.55.196.43:11434": [
     "deepseek-r1:32b"
   ],
@@ -1293,9 +1378,8 @@
   "202.105.139.103:11434": [
     "deepseek-r1:7b"
   ],
-  "111.10.244.70:11434": [
-    "deepseek-r1:70b",
-    "deepseek-r1:32b"
+  "61.172.167.92:11434": [
+    "nomic-embed-text:latest"
   ],
   "27.115.115.114:11434": [
     "llava:7b",
@@ -1313,6 +1397,8 @@
     "deepseek-r1:latest"
   ],
   "140.210.91.215:11434": [
+    "qwq:32b-q8_0",
+    "MHKetbi/qihoo360-TinyR1-32b-preview:q4_K_S",
     "qwq:latest",
     "deepseek-r1:32b-qwen-distill-fp16",
     "bge-m3:latest",
@@ -1332,11 +1418,6 @@
     "snowflake-arctic-embed:22m",
     "mxbai-embed-large:335m",
     "nomic-embed-text:latest",
-    "deepseek-r1:70b",
-    "deepseek-r1:14b",
-    "deepseek-r1:8b",
-    "deepseek-r1:7b",
-    "deepseek-r1:1.5b",
     "deepseek-r1:32b"
   ],
   "140.207.201.32:11434": [
@@ -1423,6 +1504,13 @@
   "218.78.134.239:11434": [
     "qwen2.5:1.5b"
   ],
+  "101.126.35.207:11434": [
+    "MHKetbi/OpenThinker-32B:latest",
+    "llama3.1:405b",
+    "deepseek-r1:70b",
+    "voyah/vcode-tools:70b",
+    "deepseek-r1:14b"
+  ],
   "36.140.138.161:11434": [
     "qwen2.5:7b",
     "deepseek-r1:14b",
@@ -1476,15 +1564,12 @@
     "shaw/dmeta-embedding-zh:latest",
     "deepseek-r1:70b"
   ],
-  "49.85.126.134:11434": [
-    "deepseek-r1:1.5b"
+  "61.136.70.10:11434": [
+    "qwen2.5:7b"
   ],
   "59.63.188.68:11434": [
     "smollm2:135m",
     "llama2:latest"
-  ],
-  "61.136.70.10:11434": [
-    "qwen2.5:7b"
   ],
   "103.39.231.125:11434": [
     "smollm2:135m",
@@ -1508,8 +1593,8 @@
   ],
   "103.210.21.167:11434": [
     "deepseek-r1:8b",
-    "llama3:latest",
     "llama3_zh:latest",
+    "llama3:latest",
     "llama3:8b"
   ],
   "110.41.185.81:11434": [
@@ -1539,16 +1624,31 @@
     "deepseek-r1:14b",
     "deepseek-r1:latest"
   ],
-  "40.73.38.208:11434": [
-    "smollm2:135m",
-    "qwen2.5-coder:0.5b"
+  "103.153.100.61:11434": [
+    "deepseek-r1:latest",
+    "deepseek-r1:1.5b",
+    "qwen:latest"
+  ],
+  "103.237.249.211:11434": [
+    "deepseek-r1:7b",
+    "deepseek-r1:1.5b"
+  ],
+  "103.237.248.22:11434": [
+    "qwq:latest",
+    "deepseek-r1:1.5b"
+  ],
+  "111.10.244.70:11434": [
+    "deepseek-r1:70b",
+    "deepseek-r1:32b"
+  ],
+  "113.123.196.207:11434": [
+    "nomic-embed-text:latest",
+    "qwen2.5:14b",
+    "deepseek-r1:7b",
+    "deepseek-r1:32b"
   ],
   "203.176.94.253:11434": [
     "deeseek14B"
-  ],
-  "36.137.196.135:11434": [
-    "qwen2.5:1.5b",
-    "shaw/dmeta-embedding-zh:latest"
   ],
   "116.140.216.138:11434": [
     "quentinz/bge-base-zh-v1.5:latest",
@@ -1581,6 +1681,10 @@
     "qwen:7b",
     "llama3:8b",
     "llama3:latest"
+  ],
+  "36.137.196.135:11434": [
+    "qwen2.5:1.5b",
+    "shaw/dmeta-embedding-zh:latest"
   ],
   "120.53.231.243:11434": [
     "deepseek-r1:1.5b"
@@ -1657,6 +1761,29 @@
   "47.97.200.96:11434": [
     "deepseek-r1:1.5b"
   ],
+  "40.73.38.208:11434": [
+    "smollm2:135m",
+    "qwen2.5-coder:0.5b"
+  ],
+  "116.168.2.16:11434": [
+    "smollm2:135m",
+    "deepseek-r1:7b",
+    "deepseek-r1:8b",
+    "deepseek-r1:1.5b"
+  ],
+  "117.176.132.30:11434": [
+    "bge-m3:latest",
+    "qwen2.5:latest",
+    "minicpm-v:latest",
+    "deepseek-r1:14b"
+  ],
+  "49.83.62.169:11434": [
+    "smollm2:135m",
+    "shaw/dmeta-embedding-zh:latest",
+    "huihui_ai/deepseek-r1-abliterated:14b",
+    "ds-r1:32b",
+    "deepseek-r1:14b"
+  ],
   "159.75.200.9:11434": [
     "deepseek-r1:1.5b"
   ],
@@ -1688,6 +1815,11 @@
     "bge-m3:latest",
     "EntropyYue/jina-embeddings-v2-base-zh:160m",
     "deepseek-r1:32b",
+    "deepseek-r1:7b"
+  ],
+  "36.138.1.101:11434": [
+    "deepseek-r1:14b",
+    "nomic-embed-text:latest",
     "deepseek-r1:7b"
   ],
   "203.83.232.248:11434": [
@@ -1736,11 +1868,6 @@
     "bge-m3:latest",
     "qwen2.5:32b"
   ],
-  "36.138.1.101:11434": [
-    "deepseek-r1:14b",
-    "nomic-embed-text:latest",
-    "deepseek-r1:7b"
-  ],
   "39.170.11.65:11434": [
     "deepseek-r1:32b"
   ],
@@ -1787,9 +1914,8 @@
   "47.121.116.212:11434": [
     "deepseek-r1:1.5b"
   ],
-  "139.129.32.69:11434": [
-    "bge-m3:latest",
-    "deepseek-r1:1.5b"
+  "113.44.68.179:11434": [
+    "bge-m3:latest"
   ],
   "47.96.117.68:11434": [
     "deepseek-r1:1.5b"
@@ -1803,8 +1929,8 @@
   ],
   "101.43.180.31:11434": [
     "deepseek-r1:8b",
-    "mygpu-model:latest",
     "deepseek-r1:7b",
+    "mygpu-model:latest",
     "deepseek-r1:14b"
   ],
   "103.59.148.103:11434": [
@@ -1900,14 +2026,26 @@
   "47.120.52.171:11434": [
     "deepseek-r1:7b"
   ],
+  "47.122.5.21:11434": [
+    "gpt-3.5-turbo-0613",
+    "gpt-4o-mini"
+  ],
   "47.100.232.68:11434": [
     "deepseek-r1:1.5b",
     "modelscope.cn/unsloth/DeepSeek-R1-Distill-Qwen-1.5B-GGUF:latest",
     "deepseek-r1:7b"
   ],
-  "47.122.5.21:11434": [
-    "gpt-3.5-turbo-0613",
-    "gpt-4o-mini"
+  "113.45.240.224:11434": [
+    "deepseek-r1:7b",
+    "deepseek-coder:latest"
+  ],
+  "117.158.241.228:11434": [
+    "deepseek-r1:8b"
+  ],
+  "120.233.202.55:11434": [
+    "bge-m3:567m",
+    "deepseek-r1:latest",
+    "deepseek-r1:70b"
   ],
   "8.138.129.98:11434": [
     "smollm2:135m",
@@ -2021,8 +2159,8 @@
     "shaw/dmeta-embedding-zh:latest",
     "nomic-embed-text:v1.5",
     "qwen2:72b",
-    "qwen2:latest",
-    "qwen2:1.5b"
+    "qwen2:1.5b",
+    "qwen2:latest"
   ],
   "223.100.24.248:11434": [
     "qwq:latest",
@@ -2042,42 +2180,21 @@
     "qwen2.5-coder:14b"
   ],
   "47.108.186.100:11434": [
-    "llama3.2:latest",
     "mario:latest",
+    "llama3.2:latest",
     "deepseek-r1:1.5b"
   ],
-  "116.172.94.9:11434": [
-    "deepseek-r1:14b",
-    "deepseek-r1:7b"
-  ],
   "125.70.175.151:11434": [
+    "deepseek-r1:8b",
+    "deepseek-r1:14b",
     "bge-m3:latest",
-    "nomic-embed-text:latest",
-    "deepseek-r1:14b"
+    "nomic-embed-text:latest"
   ],
   "116.142.242.27:11434": [
     "qwq:32b",
     "bge-m3:latest",
     "nomic-embed-text:latest",
     "deepseek-r1:8b"
-  ],
-  "36.212.226.103:11434": [
-    "qwen2.5:14b"
-  ],
-  "113.101.245.6:11434": [
-    "qwen2.5:1.5b",
-    "deepseek-r1:14b-qwen-distill-q8_0",
-    "qwen2.5-coder:14b",
-    "deepseek-r1:14b"
-  ],
-  "43.228.38.170:11434": [
-    "deepseek-r1:14b",
-    "deepseek-r1:1.5b",
-    "deepseek-r1:32b",
-    "nomic-embed-text:latest",
-    "deepseek.r1:12gpu",
-    "deepseek-r1:70b",
-    "deepseek-r1:7b"
   ],
   "47.109.72.118:11434": [
     "deepseek-r1:1.5b"
@@ -2125,7 +2242,12 @@
     "deepseek-r1:32b"
   ],
   "113.89.100.80:11434": [
-    "deepseek-r1:1.5b"
+    "deepseek-r1:8b"
+  ],
+  "113.105.41.15:11434": [
+    "deepseek-r1:7b",
+    "deepseek-r1:8b",
+    "deepseek-r1:14b"
   ],
   "116.130.184.142:11434": [
     "deepseek-r1:14b"
@@ -2143,11 +2265,6 @@
     "nomic-embed-text:latest",
     "deepseek-r1:14b",
     "deepseek-r1:7b"
-  ],
-  "113.105.41.15:11434": [
-    "deepseek-r1:7b",
-    "deepseek-r1:8b",
-    "deepseek-r1:14b"
   ],
   "117.133.162.249:11434": [
     "deepseek-coder-v2:16b",
@@ -2170,30 +2287,66 @@
     "deepseek-r1:1.5b",
     "bge-m3:latest"
   ],
-  "218.88.106.126:11434": [
-    "DeepSeep-R1-1.5B:latest",
-    "DeepSeek-R1-32B:latest",
-    "DeepSee-R1-14B:latest",
-    "DeepSeek-R1:latest"
+  "36.212.226.103:11434": [
+    "qwen2.5:14b"
   ],
-  "45.126.120.20:11434": [
-    "qwq:latest",
-    "hf-mirror.com/mradermacher/DeepSeek-R1-32b-Medical-COT-GGUF:Q8_0",
-    "hf-mirror.com/mradermacher/DeepSeek-R1-32b-Medical-COT-GGUF:Q5_K_M",
-    "hf-mirror.com/bartowski/HuatuoGPT-o1-7B-GGUF:F16",
-    "wudilaomo/Mo_DeepSeek-R1-Medical:latest"
+  "113.101.245.6:11434": [
+    "qwen2.5:1.5b",
+    "deepseek-r1:14b-qwen-distill-q8_0",
+    "qwen2.5-coder:14b",
+    "deepseek-r1:14b"
+  ],
+  "61.157.13.79:11434": [
+    "llama3.2:1b",
+    "MFDoom/deepseek-r1-tool-calling:7b",
+    "MFDoom/deepseek-r1-tool-calling:1.5b",
+    "smollm2:135m",
+    "rjmalagon/gte-qwen2-7b-instruct:f16",
+    "nomic-embed-text:latest",
+    "nezahatkorkmaz/deepseek-v3:latest",
+    "lrs33/bce-embedding-base_v1:latest",
+    "llama3.2:latest",
+    "linux6200/bge-reranker-v2-m3:latest",
+    "deepseek-r1:7b",
+    "deepseek-r1:32b",
+    "deepseek-r1:14b",
+    "deepseek-r1:1.5b",
+    "bge-m3:latest"
+  ],
+  "43.228.38.170:11434": [
+    "deepseek-r1:14b",
+    "deepseek-r1:1.5b",
+    "deepseek-r1:32b",
+    "nomic-embed-text:latest",
+    "deepseek.r1:12gpu",
+    "deepseek-r1:70b",
+    "deepseek-r1:7b"
+  ],
+  "125.71.97.70:11434": [
+    "comeFusion/qwq:latest",
+    "deepseek-r1:1.5b",
+    "minicpm-v:latest",
+    "nomic-embed-text:latest",
+    "deepseek-r1:comefusionai"
+  ],
+  "152.136.232.84:11434": [
+    "deepseek-r1:1.5b"
   ],
   "47.93.160.146:11434": [
     "smollm2:135m",
     "deepseek-r1:1.5b"
   ],
-  "47.96.70.163:11434": [
-    "gpt-3.5-turbo-0613",
-    "gpt-4o-mini"
-  ],
   "47.107.235.247:11434": [
     "bge-m3:latest",
     "deepseek-r1:32b"
+  ],
+  "47.109.110.100:11434": [
+    "gpt-3.5-turbo-0613",
+    "gpt-4o-mini"
+  ],
+  "47.116.186.139:11434": [
+    "gpt-3.5-turbo-0613",
+    "gpt-4o-mini"
   ],
   "47.109.80.3:11434": [
     "deepseek-r1:1.5b"
@@ -2253,12 +2406,6 @@
     "llama3.3:latest",
     "llama3.2-vision:latest"
   ],
-  "111.177.48.10:11434": [
-    "qllama/bge-reranker-large:latest",
-    "linux6200/bge-reranker-v2-m3:latest",
-    "nomic-embed-text:latest",
-    "deepseek-r1:7b"
-  ],
   "112.117.14.26:11434": [
     "smollm2:135m",
     "gemma2:27b",
@@ -2305,10 +2452,20 @@
   "218.88.20.116:11434": [
     "llama3.2:latest"
   ],
-  "36.133.101.5:11434": [
-    "deepseek-r1:8b",
-    "deepseek-r1:14b",
-    "nomic-embed-text:latest"
+  "47.101.69.206:11434": [
+    "huihui_ai/deepseek-r1-abliterated:7b"
+  ],
+  "154.8.194.176:11434": [
+    "smollm2:135m",
+    "shaw/dmeta-embedding-zh:latest"
+  ],
+  "159.75.147.27:11434": [
+    "smollm2:135m",
+    "deepseek-r1:1.5b"
+  ],
+  "47.122.43.165:11434": [
+    "gpt-3.5-turbo-0613",
+    "gpt-4o-mini"
   ],
   "125.94.250.137:11434": [
     "qwen2.5:7b",
@@ -2361,23 +2518,6 @@
     "llama3.1:latest",
     "llava:latest"
   ],
-  "61.183.91.70:11434": [
-    "deepseek-r1:1.5b",
-    "deepseek-r1:8b",
-    "qwen2.5:32b"
-  ],
-  "36.141.75.100:11434": [
-    "nomic-embed-text:latest",
-    "deepseek-r1:1.5b"
-  ],
-  "47.122.70.160:11434": [
-    "nomic-embed-text:latest"
-  ],
-  "159.75.114.201:11434": [
-    "smollm2:135m",
-    "deepseek-r1:1.5b",
-    "bge-m3:latest"
-  ],
   "47.99.154.103:11434": [
     "smollm2:135m",
     "deepseek-r1:1.5b"
@@ -2410,15 +2550,17 @@
     "deepseek-r1:8b",
     "deepseek-r1:7b"
   ],
-  "61.172.14.96:11434": [
-    "deepseek-r1:8b"
-  ],
   "61.172.167.135:11434": [
     "deepseek-r1:7b"
   ],
   "61.144.188.83:11434": [
     "deepseek-r1:14b",
     "deepseek-r1:32b"
+  ],
+  "61.183.91.70:11434": [
+    "deepseek-r1:1.5b",
+    "deepseek-r1:8b",
+    "qwen2.5:32b"
   ],
   "101.43.65.124:11434": [
     "deepseek-r1:1.5b"
@@ -2435,47 +2577,30 @@
     "deepseek-r1:32b",
     "deepseek-r1:14b"
   ],
-  "116.171.167.23:11434": [
-    "deepseek-r1:14b",
+  "183.241.136.246:11434": [
+    "deepseek-r1:1.5b",
     "deepseek-r1:32b",
-    "deepseek-r1:1.5b",
-    "DeepSeek-R1-Distill-Llama-8B-Q3_K_M:latest",
-    "zh:latest"
-  ],
-  "117.159.64.252:11434": [
-    "deepseek-r1:1.5b"
-  ],
-  "202.75.212.100:11434": [
-    "deepseek-r1:1.5b",
-    "qwq:32b",
-    "deepseek-r1:32b-qwen-distill-q8_0",
-    "qwq:32b-q8_0",
-    "deepseek-r1:32b"
-  ],
-  "27.19.116.24:11434": [
-    "nomic-embed-text:latest",
-    "deepseek-r1:14b",
-    "qwen:7b"
-  ],
-  "36.137.129.151:11434": [
-    "deepseek-r1:70b"
-  ],
-  "61.142.254.7:11434": [
-    "deepseek-r1:latest",
-    "wizardlm2:7b",
-    "codellama:7b",
-    "llava:7b",
-    "starcoder2:7b",
-    "qwen2:7b",
-    "phi3:3.8b",
-    "gemma:2b",
     "deepseek-r1:7b"
   ],
-  "61.172.167.92:11434": [
+  "36.141.75.100:11434": [
+    "nomic-embed-text:latest",
+    "deepseek-r1:1.5b"
+  ],
+  "47.122.70.160:11434": [
     "nomic-embed-text:latest"
   ],
-  "61.164.252.203:11434": [
-    "deepseek-r1:8b"
+  "159.75.114.201:11434": [
+    "smollm2:135m",
+    "deepseek-r1:1.5b",
+    "bge-m3:latest"
+  ],
+  "36.133.101.5:11434": [
+    "deepseek-r1:8b",
+    "deepseek-r1:14b",
+    "nomic-embed-text:latest"
+  ],
+  "14.215.47.26:11434": [
+    "deepseek-r1:7b"
   ],
   "14.22.87.123:11434": [
     "deepseek-r1:32b-qwen-distill-fp16",
@@ -2486,12 +2611,6 @@
   ],
   "36.139.133.84:11434": [
     "deepseek-r1:32b"
-  ],
-  "47.105.101.212:11434": [
-    "smollm2:135m",
-    "bge-m3:latest",
-    "qwen2:0.5b",
-    "deepseek-r1:1.5b"
   ],
   "58.48.224.60:11434": [
     "qwq:latest",
@@ -2530,20 +2649,10 @@
     "deepseek-r1:latest",
     "deepseek-v3:latest"
   ],
-  "183.193.225.230:11434": [
-    "deepseek-r1:1.5b"
-  ],
   "183.223.12.15:11434": [
     "DeepSeek-R1-Distill-Llama-70B-Q4_K_M:latest",
     "DeepSeek-R1-Distill-Qwen-32B-Q4_K_M:latest",
     "DeepSeek-R1-Distill-Qwen-32B:latest"
-  ],
-  "27.18.209.99:11434": [
-    "hf.co/zeewin-ai/DeepSeek-R1-Medical-Distill-Llama-8B:latest",
-    "deepseek-r1:14b",
-    "qwen2.5-coder:1.5b-base",
-    "incept5/llama3.1-claude:latest",
-    "qwen2.5-coder:14b"
   ],
   "36.133.88.128:11434": [
     "deepseek-r1:14b"
@@ -2560,25 +2669,9 @@
   "61.169.28.54:11434": [
     "deepseek-r1:1.5b"
   ],
-  "61.140.234.161:11434": [
-    "smollm2:135m",
-    "qwen2.5:latest",
-    "llama3.1:latest"
-  ],
-  "101.126.35.207:11434": [
-    "MHKetbi/OpenThinker-32B:latest",
-    "llama3.1:405b",
-    "deepseek-r1:70b",
-    "voyah/vcode-tools:70b",
-    "deepseek-r1:14b"
-  ],
-  "103.139.212.228:11434": [
-    "deepseek-r1:14b"
-  ],
-  "103.153.100.61:11434": [
-    "deepseek-r1:latest",
-    "deepseek-r1:1.5b",
-    "qwen:latest"
+  "61.144.111.89:11434": [
+    "nomic-embed-text:latest",
+    "deepseek-r1:1.5b"
   ],
   "117.172.236.208:11434": [
     "qwen2.5:7b",
@@ -2598,37 +2691,8 @@
     "deepseek-r1:latest",
     "shaw/dmeta-embedding-zh:latest"
   ],
-  "14.215.47.26:11434": [
-    "deepseek-r1:7b"
-  ],
-  "111.46.205.80:11434": [
-    "deepseek-r1:1.5b",
-    "deepseek-r1:32b"
-  ],
-  "112.91.138.94:11434": [
-    "qwq:latest",
-    "nomic-embed-text:latest",
-    "deepseek-r1:70b"
-  ],
-  "111.47.230.130:11434": [
-    "qwq:latest",
-    "bge-m3:latest",
-    "deepseek-r1:70b"
-  ],
-  "113.44.68.179:11434": [
-    "bge-m3:latest"
-  ],
-  "113.123.196.207:11434": [
-    "nomic-embed-text:latest",
-    "qwen2.5:14b",
-    "deepseek-r1:7b",
-    "deepseek-r1:32b"
-  ],
-  "113.45.240.224:11434": [
-    "deepseek-r1:7b",
-    "deepseek-coder:latest"
-  ],
   "117.175.143.62:11434": [
+    "qwen2.5:14b",
     "deepseek-r1:1.5b",
     "qwen2.5:32b",
     "deepseek-r1:14b",
@@ -2639,8 +2703,13 @@
     "bge-m3:latest",
     "deepseek-r1:8b"
   ],
-  "119.186.196.195:11434": [
-    "deepseek-r1:1.5b"
+  "118.180.19.239:11434": [
+    "deepseek-R1:32b",
+    "deepseek-R1:14b",
+    "llama3.1:8b",
+    "qwen2.5:32b",
+    "mistral:nemo",
+    "qwen2.5:14b"
   ],
   "120.77.33.8:11434": [
     "deepseek-r1:8b",
@@ -2726,13 +2795,13 @@
     "codegemma:latest"
   ],
   "150.139.141.249:11434": [
-    "DeepSeek-R1-UD-IQ1_S:latest",
-    "deepseek-r1:1.5b",
-    "deepseek-r1:14b",
-    "deepseek-r1:32b",
+    "DeepSeek-R1-UD-IQ2_XXS:latest",
     "deepseek-r1:70b",
     "deepseek-r1:7b",
-    "deepseek-r1:8b"
+    "deepseek-r1:8b",
+    "deepseek-r1:1.5b",
+    "deepseek-r1:14b",
+    "deepseek-r1:32b"
   ],
   "150.223.195.206:11434": [
     "deepseek-r1:32b",
@@ -2749,6 +2818,7 @@
     "deepseek-r1:1.5b"
   ],
   "180.158.191.247:11434": [
+    "aratan/qwen2.5-14bu:latest",
     "deepsk:14b",
     "qwq:32b",
     "nomic-embed-text:latest",
@@ -2770,31 +2840,71 @@
   "218.90.57.94:11434": [
     "deepseek-r1:7b"
   ],
-  "115.199.86.244:11434": [
-    "llama3.2:latest",
-    "aerok/xiaobu-embedding-v2:latest"
-  ],
-  "116.168.2.16:11434": [
-    "smollm2:135m",
-    "deepseek-r1:7b",
-    "deepseek-r1:8b",
+  "81.70.18.120:11434": [
     "deepseek-r1:1.5b"
   ],
-  "117.187.222.40:11434": [
+  "111.47.230.135:11434": [
     "qwq:latest",
+    "bge-m3:latest",
     "deepseek-r1:70b"
   ],
-  "117.176.132.30:11434": [
-    "bge-m3:latest",
-    "qwen2.5:latest",
-    "minicpm-v:latest",
+  "150.129.138.200:11434": [
+    "deepseek-r1:14b",
+    "deepseek-r1:32b",
+    "deepseek-r1:1.5b"
+  ],
+  "150.158.130.90:11434": [
+    "ds-tf-v3:latest",
+    "ds-tf-v2:latest",
+    "qwen-sex-v2:latest",
+    "qwensex:latest",
+    "ds_sex:latest"
+  ],
+  "157.0.1.211:11434": [
+    "qwq:latest",
+    "nomic-embed-text:latest",
+    "deepseek-r1:70b"
+  ],
+  "157.148.121.244:11434": [
+    "deepseek-r1:70b",
     "deepseek-r1:14b"
   ],
-  "117.158.241.228:11434": [
-    "deepseek-r1:8b"
-  ],
-  "119.188.66.43:11434": [
+  "171.211.32.129:11434": [
+    "deepseek-r1:14b",
     "deepseek-r1:32b"
+  ],
+  "180.213.162.186:11434": [
+    "deepseek-r1:latest"
+  ],
+  "203.3.115.162:11434": [
+    "nomic-embed-text:latest",
+    "deepseek-r1:70b"
+  ],
+  "218.71.14.137:11434": [
+    "qwq:latest",
+    "phi4:latest",
+    "gemma2:latest",
+    "deepseek-r1:32b"
+  ],
+  "223.93.150.96:11434": [
+    "linux6200/bge-reranker-v2-m3:latest",
+    "nomic-embed-text:latest",
+    "llama3.1:8b",
+    "deepseek-r1:7b"
+  ],
+  "8.129.110.248:11434": [
+    "deepseek-r1-32b"
+  ],
+  "36.141.45.98:11434": [
+    "deepseek-r1:14b"
+  ],
+  "101.89.161.51:11434": [
+    "nomic-embed-text:latest"
+  ],
+  "119.45.31.208:11434": [
+    "erwan2/DeepSeek-Janus-Pro-7B:latest",
+    "deepseek-r1:latest",
+    "minicpm-v:latest"
   ],
   "120.237.138.18:11434": [
     "deepseek-r1:671b",
@@ -2806,7 +2916,6 @@
     "llama3:8b"
   ],
   "120.232.79.82:11434": [
-    "llama3:latest",
     "deepseek-r1:32b",
     "llama3.2-vision:latest",
     "deepseek-r1:14b",
@@ -2841,58 +2950,137 @@
   "124.222.123.110:11434": [
     "deepseek-r1:1.5b"
   ],
+  "139.129.32.69:11434": [
+    "bge-m3:latest",
+    "deepseek-r1:1.5b"
+  ],
   "140.249.9.42:11434": [
     "deepseek-r1:1.5b",
     "modelscope.cn/unsloth/DeepSeek-R1-Distill-Qwen-32B-GGUF:latest"
   ],
-  "150.129.138.200:11434": [
-    "deepseek-r1:14b",
-    "deepseek-r1:32b",
+  "45.125.57.233:11434": [
+    "smollm2:135m",
+    "deepseek-r1:8b",
+    "deepseek-r1:14b"
+  ],
+  "47.97.244.63:11434": [
+    "modelscope.cn/unsloth/DeepSeek-R1-Distill-Qwen-1.5B-GGUF:latest"
+  ],
+  "47.119.22.158:11434": [
     "deepseek-r1:1.5b"
   ],
-  "150.158.130.90:11434": [
-    "ds-tf-v3:latest",
-    "ds-tf-v2:latest",
-    "qwen-sex-v2:latest",
-    "qwensex:latest",
-    "ds_sex:latest"
+  "47.112.101.106:11434": [
+    "quentinz/bge-large-zh-v1.5:latest",
+    "bge-large:latest",
+    "bge-m3-gguf:latest",
+    "bge-m3:latest"
   ],
-  "157.0.1.211:11434": [
+  "47.100.199.12:11434": [
+    "smollm2:135m",
+    "deepseek-r1:1.5b"
+  ],
+  "47.122.70.196:11434": [
     "qwq:latest",
-    "nomic-embed-text:latest",
-    "deepseek-r1:70b"
-  ],
-  "157.148.121.244:11434": [
-    "deepseek-r1:70b",
-    "deepseek-r1:14b"
-  ],
-  "171.211.32.129:11434": [
-    "deepseek-r1:14b",
-    "deepseek-r1:32b"
-  ],
-  "180.213.162.186:11434": [
-    "deepseek-r1:latest"
-  ],
-  "203.3.115.162:11434": [
-    "deepseek-r1:70b"
-  ],
-  "218.78.133.21:11434": [
-    "qwen2.5:32b"
-  ],
-  "218.71.14.137:11434": [
-    "qwq:latest",
+    "deepseek-r1:32b",
+    "glm4:latest",
     "phi4:latest",
+    "phi3:latest",
+    "qwen2.5:latest",
+    "llama3.2:latest",
+    "phi3:medium-128k",
+    "qwen2:latest",
     "gemma2:latest",
+    "llama3.1:latest",
+    "llama3.1:8b"
+  ],
+  "49.75.144.118:11434": [
+    "qwq:32b",
+    "deepseek-r1:1.5b"
+  ],
+  "47.120.22.254:11434": [
+    "smollm2:135m",
+    "modelscope.cn/unsloth/DeepSeek-R1-Distill-Qwen-1.5B-GGUF:latest"
+  ],
+  "47.96.178.25:11434": [
+    "deepseek-r1:70b",
+    "deepseek-r1:14b",
+    "deepseek-r1:32b-local",
     "deepseek-r1:32b"
   ],
-  "218.66.32.63:11434": [
-    "bge-m3:latest",
+  "47.119.176.64:11434": [
+    "modelscope.cn/unsloth/DeepSeek-R1-Distill-Qwen-1.5B-GGUF:latest"
+  ],
+  "47.112.177.89:11434": [
+    "deepseek-r1:7b"
+  ],
+  "61.164.246.109:11434": [
+    "qwen2-1.5b:latest"
+  ],
+  "103.36.220.72:11434": [
+    "deepseek-r1:8b"
+  ],
+  "103.40.255.238:11434": [
+    "nomic-embed-text:latest",
+    "hf.co/bartowski/DeepSeek-R1-Distill-Qwen-14B-GGUF:Q4_K_M",
+    "deepseek-r1:32b",
+    "deepseek-r1:14b"
+  ],
+  "113.118.52.156:11434": [
     "nomic-embed-text:latest",
     "deepseek-r1:14b"
   ],
-  "223.93.150.96:11434": [
+  "113.125.174.209:11434": [
+    "qwen2.5-coder:1.5b",
+    "deepseek-r1:1.5b"
+  ],
+  "113.68.60.189:11434": [
+    "deepseek-r1:7b",
+    "deepseek-r1:1.5b"
+  ],
+  "113.106.151.226:11434": [
+    "deepseek-r1:7b",
+    "deepseek-r1:1.5b"
+  ],
+  "114.67.126.140:11434": [
     "nomic-embed-text:latest",
-    "llama3.1:8b",
+    "linux6200/bge-reranker-v2-m3:latest",
+    "deepseek-r1:14b"
+  ],
+  "119.91.42.52:11434": [
+    "deepseek-r1:1.5b"
+  ],
+  "123.145.134.211:11434": [
+    "deepseek-r1:1.5b"
+  ],
+  "125.69.91.40:11434": [
     "deepseek-r1:7b"
+  ],
+  "125.76.120.1:11434": [
+    "deepseek-r1:8b"
+  ],
+  "123.249.124.102:11434": [
+    "deepseek-r1:7b",
+    "deepseek-r1:1.5b"
+  ],
+  "36.137.131.41:11434": [
+    "deepseek-r1:14b",
+    "minicpm-v:latest",
+    "nomic-embed-text:latest"
+  ],
+  "39.105.155.119:11434": [
+    "nomic-embed-text:latest"
+  ],
+  "39.156.86.4:11434": [
+    "smollm2:135m",
+    "deepseek-r1:70b",
+    "deepseek-r1:32b"
+  ],
+  "39.170.9.199:11434": [
+    "deepseek-r1:8b",
+    "deepseek-r1:14b",
+    "llama3.1:8b",
+    "phi4:latest",
+    "qwen2.5:3b",
+    "deepseek-r1:1.5b"
   ]
 }
